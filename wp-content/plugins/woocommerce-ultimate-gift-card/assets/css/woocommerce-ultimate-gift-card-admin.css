@@ -1,0 +1,1168 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+.wp-pointer-buttons a.close:before {
+
+  display: none!important;
+}
+.wp-core-ui .button-primary {
+  margin-left: 15px !important;
+}
+#mwb_wgm_setting_wrapper nav {
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+#mwb_wgm_setting_wrapper .nav-tab {
+ margin-top: 10px;
+}
+#mwb_wgm_mail_instruction .inside .form-table tr th {
+  padding: 5px !important;
+}
+#mwb_wgm_mail_instruction .inside .form-table tr td {
+  padding: 5px !important;
+}
+#mwb_wgm_setting_wrapper{
+  background: #fff;
+  overflow: hidden;
+}
+.mwb_table #mwb_wgm_other_setting_upload_logo,.mwb_table #mwb_wgm_other_setting_background_logo_value{
+ margin-bottom:10px;
+}
+#mwb_wgm_setting_wrapper table{ 
+  width: 100%;
+}
+#mwb_wgm_thankyou_message{
+  margin-left: 20px;
+}
+#mwb_wgm_setting_wrapper #mainform {
+  padding: 20px;
+  padding-top: 0;
+}
+.mwb_wgm_general_setting tr:nth-child(2n+1) {
+  background-color: #ffffff;
+}
+#wpbody-content #mwb_wgm_setting_wrapper #mainform .form-table th {
+  padding: 20px 10px 20px 20px;
+}
+.mwb_wgm_product_setting .select2.select2-container.select2-container--default
+{
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.mwb_wgm_general_setting .select2.select2-container.select2-container--default {
+
+  max-width: 100% !important;
+  width: 50% !important;
+}
+
+.mwb_wgm_product_setting .select2-selection__rendered {
+  height: auto;
+}
+.mwb_wgm_product_setting .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-left: 9px;
+  margin-top: 7px;
+  padding:7px 5px; 
+}
+.mwb_wgm_product_setting {
+  background-color: #ffffff;
+}
+.mwb_wgm_other_setting .mwb_wgm_other_setting_upload_logo_value {
+  border-radius: 3px;
+  padding: 3px;
+}
+.mwb_wgm_other_setting .forminp.forminp-text img {
+  margin-top: 25px;
+}
+.mwb_wgm_other_setting .forminp.forminp-text img {
+  border: 1px solid #575757;
+}
+.mwb_wgm_other_setting {
+  background-color: #ffffff;
+}
+.mwb_wgm_general_setting tr:nth-child(2n) {
+  background: #f4f4f4 none repeat scroll 0 0;
+}
+#mwb_wgm_setting_wrapper .nav-tab-active{
+  background:#fff !important;
+  color:#23282d  !important;
+}
+#mwb_wgm_setting_wrapper .nav-tab{
+  background:#0073aa;
+  color:#fff;
+}
+.mwb_wgm_other_setting_remove_logo_span {
+  background-color: red;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 18px;
+  height: 25px;
+  line-height: 24px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: 12px;
+  width: 25px;
+}
+.mwb_wgm_instructions_reminder {
+ background-color: #0073aa;
+ border-radius: 3px;
+ box-shadow: none;
+ color: #ffffff;
+ float: right;
+ padding: 5px 10px;
+ text-decoration: none;
+}
+.mwb_wgm_instructions_reminder:hover, .mwb_wgm_instructions_reminder:focus {
+ background-color: #48C2F9;
+ box-shadow: none;
+ color: #ffffff;
+}
+
+.mwb_wgm_other_setting_remove_logo {
+  display: inline-block;
+  position: relative;
+}
+
+#mwb_wgm_other_setting_remove_logo{
+  display:none;
+}
+
+#mwb_wgm_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+#mwb_wgm_loader img {
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.mwb_wgm_other_setting_remove_background_span {
+  background-color: red;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 18px;
+  height: 25px;
+  line-height: 24px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: 12px;
+  width: 25px;
+}
+
+.mwb_wgm_remove_background_span {
+  top: -11px;
+}
+
+.mwb_wgm_addon_bulk_image_div {
+  margin-bottom: ;
+  position: relative;
+}
+.mwb_wgm_other_setting_remove_background {
+  display: inline-block;
+  position: relative;
+}
+
+#mwb_wgm_other_setting_remove_background {
+  display:none;
+}
+.mwb_wgm_mail_setting_tab {
+  background: #0073aa none repeat scroll 0 0;
+  color: white;
+  margin: 9px 0 0;
+  padding: 10px;
+}
+.mwb_wgm_coupon_mail_setting_tab {
+  background: #0073aa none repeat scroll 0 0;
+  color: white;
+  margin: 9px 0 0;
+  padding: 10px;
+}
+#mwb_wgm_mail_setting_wrapper{
+  display:none;
+}
+
+#mwb_wgm_coupon_mail_setting_wrapper{
+  display:none;
+}
+.mwb_wgm_error{
+  border:1px solid red !important;
+}
+#mwb_wgm_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+#mwb_wgm_loader img {
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+#mwb_wgm_add_offline{
+  margin: 0px; 
+  padding: 0px 0px 0px 20px !important;
+  border-bottom: 3px solid rgb(204, 204, 204);
+}
+
+#mwb_wgm_add_offline h3{
+  float: left;
+}
+
+#mwb_wgm_add_offline a{
+  float: right;
+  margin: 11px 15px 0px 0px;
+}
+#mwb_wgm_add_new_card_heading {
+  float: left;
+}
+#mwb_wgm_add_new_card_button {
+  float: right;
+  margin: 13px 0 0;
+}
+
+.mwb_select_coupon_product.wc-enhanced-select.enhanced {
+  width: 300px;
+}
+#s2id_mwb_select_coupon_product {
+  display: inline-block !important;
+}
+.mwb_sample_export img {
+  left: 10px;
+  max-width: 30px;
+  position: relative;
+  top: 4px;
+}
+.mwb_import_templates.button:hover {
+ color: #0073aa ;
+ background: #fff;
+}
+.mwb_import_templates.button {
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-top-colors: none;
+ background: #0073aa none repeat scroll 0 0;
+ border-bottom: medium none;
+ border-image: none;
+ border-left: medium none;
+ border-top: medium none;
+ color: #eeeeee ;
+}
+.mwb_wgm_import_giftcoupons {
+  overflow-y: auto;
+}
+.mwb_wgm_instructions_tabledata {
+  display: table-cell !important;
+  padding-left: 15px !important;
+}
+#mwb_wgm_setting_wrapper p.submit {
+ float: left;
+ display: inline-block;
+}
+.submit.mwb_wgm_email_template {
+  width: 100%;
+}
+#mwb_wgm_exclude_per_product + span,#mwb_wgm_exclude_per_category + span{
+  width: 50% !important;
+}
+
+#mwb_wgm_include_per_product + span,#mwb_wgm_include_per_category + span{
+  width: 50% !important;
+}
+#mwb_wgm_email_template + span{
+  width: 50% !important;
+}
+.mwb_wgm_add_more.button {
+  margin-top: 10px;
+}
+.select2-container.select2-container-multi.mwb_wgm_exclude_per_product {
+ width: 50% !important;
+}
+.select2-container.select2-container-multi.mwb_wgm_email_template {
+ width: 50% !important;
+}
+.mwb_wgm_exclude_per_category_field .select2-container.select2-container-multi {
+ float: none;
+ width: 50%;
+}
+
+/*================================
+=            style            =
+================================*/
+.mwb_salebooster_wrapper {
+  margin: 0 auto;
+  max-width: 275px;
+  width: 100%;
+}
+.mwb_salebooster_wrapper .mwb_booster_content {
+  background-color: #0787c1;
+  border-radius: 3px 3px 0 0;
+  color: #ffffff;
+  padding: 12px 7px;
+  position: relative;
+  text-align: center;
+}
+.mwb_booster_content_head > img {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.mwb_salebooster_wrapper .mwb_booster_content_head h2 {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1;
+  margin: 0;
+}
+.mwb_plugin_sale_head > h2::before {
+  clear: both;
+  content: "";
+  display: block;
+  position: absolute;
+}
+.mwb_salebooster_wrapper .mwb_booster_content_head .mwb_heading_3 {
+  font-weight: lighter;
+}
+.mwb_salebooster_wrapper .mwb_booster_content_head .mwb_heading_1 {
+  font-weight: lighter;
+}
+.mwb_salebooster_wrapper .mwb_booster_content_para {
+ padding: 10px 0;
+}
+.mwb_salebooster_wrapper .mwb_bosster_content_para_wrap {
+  background-color: #eae9e9;
+  color: #000000;
+  padding: 10px 12px;
+}
+.mwb_table,#mwb_wgm_general_setting_giftcard_prefix,.mwb_table input[type="text"],.mwb_table input[type="password"] {
+  display: inline-block !important;
+}
+#csv_import {
+  margin-left: 5px;
+}
+.mwb_salebooster_wrapper .mwb_plugin_booster_amount {
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding:10px 12px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#E2E8EC, #AFBFCB); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E2E8EC, #AFBFCB); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E2E8EC, #AFBFCB); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E2E8EC, #AFBFCB); /* Standard syntax */
+}
+.mwb_salebooster_wrapper .mwb_plugin_booster_amount h1 {
+  float: left;
+  font-size: 33px;
+  margin: 0;
+  padding: 3px 0;
+}
+#mwb_sidebar_action_panel {
+  text-align: right;
+}
+.mwb_sidebar_close {
+ background: #0787c1 none repeat scroll 0 0;
+ border: 1px solid #0787c1 ;
+ border-radius: 50%;
+ color: #ffffff ;
+ display: inline-block;
+ font-weight: bold;
+ height: 28px;
+ line-height: 27px;
+ padding: 0;
+ text-align: center;
+ text-decoration: none;
+ transition: all 0.3s linear 0s;
+ width: 28px;
+}
+
+.mwb_sidebar_close:hover {
+ background: #f71111 none repeat scroll 0 0;
+ border-color: #f71111 ;
+ color: #ffffff ;
+ text-decoration: none;
+}
+.mwb_salebooster_wrapper .mwb_plugin_sale_head span {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.mwb_salebooster_wrapper .mwb_plugin_sale_head span img {
+  margin-top: 2px;
+  width: 100%;
+}
+.mwb_salebooster_wrapper .mwb_plugin_sale_head > h2 {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  margin: 13px 0 0 2px;
+  vertical-align: top;
+  width: 78%;
+}
+.mwb_salebooster_wrapper .mwb_purchase_booster_pluginlink a {
+  background-color: #026e9f;
+  border: medium none;
+  border-radius: 3px;
+  color: #ffffff;
+  display: block;
+  font-family: "Proxima Nova Rg";
+  font-size: 12px;
+  padding: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.mwb_salebooster_wrapper .mwb_purchase_booster_pluginlink {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+#mwb_wgm_manage_template.mwb_wgm_mail_setting_tab {
+  margin: 0;
+}
+.mwb_table {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+  overflow-y:auto;
+}
+.mwb_salebooster_wrapper {
+  float: right;
+  margin: 0 auto;
+  max-width: 275px;
+  width: 100%;
+}
+.mwb_salebooster_wrapper .mwb_salebooster_adds {
+  overflow-y: scroll;
+}
+#mainform::before {
+  clear: both;
+  content: "";
+  display: block;
+  position: absolute;
+}
+.mwb_plugin_sale_head {
+  background-color: #423041;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 2px;
+  padding: 6px 12px;
+}
+.mwb_booster_content_para:first-child span {
+  font-weight: bold;
+}
+.mwb_plugins_list {
+  background-color: #eae9e9;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 #99adbc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.mwb_salebooster_wrapper div:nth-child(2) {
+  margin-top: 3px;
+  }.mwb_purchase_booster_pluginlink {
+    float: right;
+    text-align: center;
+    width: 62%;
+  }
+  /*=====  End of style  ======*/
+  /*========================================
+  =            Discount Tab CSS            =
+  ========================================*/
+  .mwb_wgm_discount_tbody {
+    overflow: auto;
+    display: block;
+  }
+  .mwb_shippingaddon tr .forminp.forminp-text label {
+    display: inline-block;
+  }
+
+  /*=====  End of Discount Tab CSS  ======*/
+/*=========================================
+  =            Import export css            =
+  =========================================*/
+  .mwb_wgm_import_giftcoupons,.mwb_wgm_import_giftproducts {
+    border: 1px solid #D6D6D6;
+    margin: 10px 0;
+    padding: 0;
+    overflow-y: auto;
+  }
+  .mwb_wgm_import_giftcoupons > h3, .mwb_wgm_import_giftproducts > h3 {
+    background: #f4f4f4 none repeat scroll 0 0;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  .mwb_wgm_import_giftcoupons .mwb_wgm_general_setting h3,.mwb_wgm_import_giftproducts .mwb_wgm_general_setting h3{
+    margin-top: 0;
+  }
+  .mwb_wgm_export_giftcoupons .mwb_wgm_general_setting tr:nth-child(2n+1) {
+    background: #f4f4f4 none repeat scroll 0 0;
+  }
+  .mwb_wgm_export_giftcoupons .mwb_wgm_general_setting tr:nth-child(2n) {
+    background: #ffffff none repeat scroll 0 0;
+  }
+  /*=====  End of Import export css  ======*/
+
+/*======================================
+=             media query            =
+======================================*/
+@media only screen and (max-width:768px){
+
+  td.forminp.forminp-text {
+    display: table-cell !important;
+  }
+  #wpbody-content #mwb_wgm_setting_wrapper #mainform .form-table th {
+    padding: 20px 10px 20px 20px;
+    display: table-cell;
+  }
+  tbody.mwb_wgm_thankyouorder_tbody {
+    display: block;
+    overflow: scroll;
+  }
+
+  .mwb_salebooster_wrapper {
+    margin-bottom: 25px;
+  }
+  .mwb_table {
+   width: 100%;
+   float: none;
+   padding: 5px;
+ }
+ .mwb_table .mwb_wgm_other_setting td {
+  padding: 6px;
+}
+.mwb_salebooster_wrapper {
+  float: none;
+  max-width: 100%;
+  width: 100%;
+}
+.mwb_salebooster_adds{
+  height:344px!important;
+}
+}
+/*=====  End of  media query  ======*/
+.mwb_salebooster_adds {
+  display: block;
+}
+.mwb_salebooster_adds.mwb_sidebar_hidden {
+  display: none;
+}
+.mwb_table.mwb_table_full_width {
+  width: 100%;
+}
+.mwb_salebooster_wrapper #mwb_sidebar_action_panel {
+  text-align: right;
+}
+.mwb_table.mwb_table_full_width > h2 {
+  margin-top: 10px;
+}
+.mwb_sidebar_action.mwb_sidebar_hide.dashicons.dashicons-arrow-right {
+  background-color: #0073aa;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  vertical-align: middle;
+}
+.mwb_plugin_sale_head > span::before {
+  background-color: #ececec;
+  content: "";
+  height: 30px;
+  position: absolute;
+  right: -1px;
+  top: 7px;
+  width: 1px;
+}
+.mwb_wgm_new_woo_ver_style_select {
+  padding: 0 !important;
+  width: 200px !important;
+}
+.mwb_wgm_new_woo_ver_style_text{
+  width: 200px !important;
+}
+textarea#mwb_wgm_offline_gift_message {
+  display: inline-block !important;
+}
+/* #mwb_wgm_setting_wrapper table td.forminp label {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    } */
+    .mwb_wgm_new_woo_ver_style_textarea{
+      width: 100% !important;
+    }
+    tr.mwb_wgm_pdf_deprecated_row td span {
+      font-size: 16px;
+    }
+    tr.mwb_wgm_pdf_deprecated_row td input#mwb_wgm_pdf_deprecated_next_step, tr.mwb_wgm_pdf_deprecated_row input#mwb_wgm_pdf_deprecated {
+      background: #0073aa;
+      color: #fff;
+      border: 0px;
+      padding: 10px 20px;
+      margin-left: 20px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    /*giftcard reddem*/
+    .mwb_redeem_main_content{
+      margin-bottom: 70px;
+    }
+    .text-left{
+      text-align: left;
+    }
+    #mwb_gw_setting_wrapper table.mwb_redeem_details {
+      -moz-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+      -ms-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+      -o-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+      -webkit-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+      border-radius: 10px;
+      box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+      margin: 40px 0 60px 0;
+      overflow: hidden;
+    }
+    .mwb-reedem-video {
+      margin-bottom: 60px;
+    }
+    #mwb_gw_setting_wrapper table.mwb_redeem_details thead {
+      background-color: #0073aa;
+      color: #ffffff;
+    }
+    #mwb_gw_setting_wrapper table.mwb_redeem_details tbody th {
+      width: 200px;
+    }
+    .mwb-readem-work-listing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .mwb-readem-work-listing li {
+      float: left;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 33.333%;
+    }
+    .mwb-readem-work-listing li i {
+      color: #0073aa;
+      margin-right: 7px;
+      vertical-align: middle;
+    }
+    .mwb_redeem_listing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 -15px 70px -15px;
+    }
+    .mwb_redeem_listing .mwb_redeem_item {
+      flex: 0 0 18%;
+      margin-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+    }
+    .mwb_redeem_arrow {
+      color: #0073aa;
+      font-size: 31px;
+      margin-left: auto;
+      margin-right: 0;
+      position: absolute;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+    .mwb_redeem_content {
+      align-items: center;
+      border-radius: 4px;
+      box-shadow: 1px 2px 10px rgba(0 ,0,0,0.1);
+      color: #ffffff;
+      display: flex;
+      font-size: 20px;
+      justify-content: center;
+      min-height: 70px;
+      padding:10px;
+      text-align: center;
+    }
+    .mwb_redeem_item.scan .mwb_redeem_content{
+      background-color: #e0a944;
+    }
+    .mwb_redeem_item.redeem  .mwb_redeem_content{
+      background-color: #0073aa;
+    }
+    .mwb_redeem_item.recharge .mwb_redeem_content{
+      background-color:#0cb6ef;
+    }
+    .mwb_redeem_item.reports .mwb_redeem_content{
+      background-color: #4bc74b;
+    }
+    .text-center{
+      text-align: center;
+    }
+    .mwb_redeem_div_wrapper .generate_link,
+    input#wcgm_generate_offine_redeem_url,
+    input.remove_giftcard_redeem_details,
+    .mwb_gw_open_redeem_link,
+    .update_giftcard_redeem_details{
+      background-color: #0073aa;
+      color: #ffffff;
+      padding: 17px 30px;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 15px;
+      border-radius: 4px;
+      border: 2px solid #0073aa;
+      text-transform: capitalize;
+      font-size: 16px;
+      cursor: pointer;
+      line-height: 1.4;
+    }
+    input#wcgm_generate_offine_redeem_url{
+     padding: 10px 20px;
+   }
+   .mwb_giftware_reddem_link_wrapper {
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .mwb_giftware_reddem_link_wrapper span {
+    display: block;
+    width: 223px;
+    margin: 0 auto;
+  }
+  .mwb_redeem_div_wrapper .generate_link {
+    box-shadow: 0 4px 11px rgba(145, 92, 182, .55),0 -2px 0 rgba(0,0,0,0.2) inset;
+    font-size: 15px;
+    font-weight: 600;
+    left: 0;
+    margin: 0 auto;
+    padding: 12px;
+  }
+  .mwb-giftware-reddem-image.text-center {
+    position: relative;
+  }
+  .mwb-giftware-reddem-image img {
+    max-width: 100%;
+    width: auto;
+  }
+  .mwb_redeem_div_wrapper .generate_link:hover, .mwb_redeem_div_wrapper .generate_link:focus{
+    outline: 0;
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 7px 21px rgba(145, 92, 182, .55),0 -2px 0 rgba(0,0,0,0.2) inset;
+  }
+  a.mwb_gw_open_redeem_link{
+    background-color: #ffffff;
+    color: #0073aa;
+  }
+  input#wcgm_generate_offine_redeem_url:hover,input#wcgm_generate_offine_redeem_url:focus,
+  input.remove_giftcard_redeem_details:hover,input.remove_giftcard_redeem_details:focus,
+  .update_giftcard_redeem_details:hover, .update_giftcard_redeem_details:focus{
+    background-color: #ffffff;
+    color: #333333;
+    outline: 0;
+    box-shadow: none;
+  }
+  .mwb_gw_open_redeem_link:hover,.mwb_gw_open_redeem_link:focus{
+    background-color: #4F3154;
+    color: #ffffff;
+    box-shadow: none;
+    outline: 0;
+    border-color: #4F3154;
+  }
+.mwb_redeem_registraion_div .mwb_gw_general_setting {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffffff;
+    padding: 25px;
+    border: 2px solid #0073aa;
+}
+  .mwb-redeem-pop-close {
+    background-color: #eeeeee;
+    border-radius: 50%;
+    color: #0073aa;
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    text-align: center;
+    top: -15px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+
+  .mwb_redeem_registraion_div {
+    position: fixed;
+    background-color: rgba(0,0,0,0.55);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    z-index: 999999;
+  }
+  .mwb_redeem_registraion_div .mwb_gw_general_setting input[type="email"],
+  .mwb_redeem_registraion_div .mwb_gw_general_setting input[type="text"]{
+    padding: 10px !important;
+    width: 95% !important;
+  }
+  .mwb_redeem_details {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .mwb_redeem_details td, .mwb_redeem_details th {
+    padding: 15px;
+  }
+  #mwb_gw_setting_wrapper table.mwb_redeem_details thead th {
+    font-size: 20px;
+    padding: 20px;
+  }
+  #mwb_gw_setting_wrapper * {
+    box-sizing: border-box;
+  }
+  .mwb_redeem_details tbody th{
+    text-align: left;
+  }
+  .mwb_redeem_details td textarea, .mwb_redeem_details td input[type="text"] {
+    width: 92%;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: transparent;
+  }
+  .mwb-giftware-copy-icon {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .mwb-giftware-copy-icon button {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .mwb_redeem_details td textarea:focus, .mwb_redeem_details td input[type="text"]:focus{
+    border-color: #ffffff;
+  }
+
+.mwb_table {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.mwb_gw_new_badge {
+    position: absolute;
+    content: "";
+    background: #ff6c00;
+    color: #fff;
+    top: -17px;
+    right: -15px;
+    border-radius: 8px;
+    padding: 2px 6px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.nav-tab {
+    position: relative;
+}
+
+.mwb_gw_admin_notices {
+    display: block;
+    position: relative;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 20px #ededed;
+}
+
+.mwb_gw_admin_notices p {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.mwb_gw_admin_notices a:nth-child(2) {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*new-css*/
+
+.mwb_redeem_content {
+    padding: 18px 20px;
+    min-height: auto;
+}
+.mwb_table h3{
+
+    font-size: 24px;
+    margin-bottom: 35px;
+    line-height: 26px;
+
+}
+.mwb_wgm_setting_title {
+    background: #4ecae4;
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+    padding: 20px !important;
+    color: #fff;
+    font-weight: bold !important;
+}
+
+.mwb_gw_general_setting .woocommerce-help-tip {
+    position: absolute;
+    left: -18px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.mwb_gw_general_setting .form-table td{
+  position: relative;
+}
+
+.mwb_gw_general_setting th{
+  width: 100px !important;
+}
+/*.mwb-redeem-pop-close::after {
+    position: absolute;
+    content: "";
+    background: #000;
+    height: 16px;
+    width: 2px;
+    top: 7px;
+    transform: rotate(45deg);
+}
+.mwb-redeem-pop-close::before {
+    position: absolute;
+    content: "";
+    background: #000;
+    height: 16px;
+    width: 2px;
+    top: 7px;
+    transform: rotate(-45deg);
+}*/
+
+.mwb-redeem-pop-close .fas.fa-times {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.mwb_redeem_details {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  moz-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+  -ms-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+  -o-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  box-shadow: 0 23px 83px rgba(0, 0, 0, 0.16);
+  margin: 30px auto;
+  overflow: hidden;
+}
+table.mwb_redeem_details thead th {
+  font-size: 20px;
+  padding: 20px;
+}
+table.mwb_redeem_details thead {
+  background-color: #0073aa;
+  color: #ffffff;
+}
+.mwb_redeem_div_wrapper, .mwb_redeem_div_wrapper p {
+  font-size: 15px;
+}
+.mwb_redeem_details th {
+    width: 180px;
+}
+.mwb_redeem_details thead th {
+  font-size: 18px;
+}
+
+.mwb_redeem_details .remove_giftcard_redeem_details {
+    padding: 10px 20px !important;
+}
+.mwb_redeem_details .mwb_gw_open_redeem_link,
+.update_giftcard_redeem_details{
+   padding: 10px 20px !important;
+}
+
+.mwb_redeem_details tbody td{
+  position: relative;
+}
+
+.mwb-giftware-copy-icon {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*end*/
+
+
+  @media only screen and (max-width: 1200px) {
+    table.wp-list-table.widefat.fixed.striped.woocommerce_page_mwb-wgc-setting {
+      display: block;
+      overflow-x: scroll;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    tr.mwb_wgm_pdf_deprecated_row td:nth-child(1n) {
+      width: 0px !important;
+    }
+    tr.mwb_wgm_pdf_deprecated_row td {
+      width: 100% !important;
+      display: table-cell;
+    }
+    table.form-table.mwb_wgm_offline_gift_to tr td textarea#mwb_wgm_offline_gift_message {
+      width: 100%;
+    }
+    tbody.mwb_wgm_thankyouorder_tbody td.forminp.forminp-text {
+      max-width: 130px;
+    }
+    tbody.mwb_wgm_thankyouorder_tbody td.forminp.forminp-text input {
+      width: 100%;
+    }
+    .mwb-readem-work-listing li{
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    input.mwb_wgm_new_woo_ver_style_text {
+      width: 100% !important;
+      display: inline-block;
+    }
+    table.mwb_qrcode.form-table.mwb_wgm_general_setting {
+      width: 500px !important;
+    }
+    .mwb_table.mwb_table_full_width {
+      max-width: 500px !important;
+      display: block !important;
+      overflow-x: scroll !important;
+      width: 100%;
+    }
+    table.form-table.mwb_wgm_general_setting, table.mwb_shippingaddon.form-table.mwb_wgm_general_setting, table.mwb_barcode.form-table.mwb_wgm_general_setting {
+      width: 500px !important;
+    }
+    table.form-table.mwb_wgm_thankyouorder_setting.wp-list-table.widefat.striped {
+      width: 500px;
+      overflow-x: scroll;
+      display: block;
+    }
+    #mwb_wgm_setting_wrapper table {
+      width: 100%;
+      overflow-x: scroll;
+      display: block;
+    }
+    table.form-table.mwb_wgm_offline_gift_to tr td textarea#mwb_wgm_offline_gift_message {
+      width: 100%;
+    }
+    .mwb_table.mwb_table_full_width td.forminp.forminp-text label {
+      width: 100%;
+      display: block;
+    }
+    .mwb_redeem_details, .mwb_redeem_details tr,.mwb_redeem_details th,.mwb_redeem_details td,.mwb_redeem_details tbody , .mwb_redeem_details tr ,.mwb_redeem_details thead{
+      display: block;
+    }
+    .mwb_redeem_details td, .mwb_redeem_details th {
+      padding: 3px 15px;
+    }
+    #mwb_gw_setting_wrapper table.mwb_redeem_details tbody th{
+      width: 100%;
+    }
+    .mwb_redeem_details td textarea, .mwb_redeem_details td input[type="text"]{
+      width:78%;
+    }
+  }
+
+  @media only screen and (max-width: 576px){
+    .mwb-giftware-reddem-image img{
+      display: none;
+    }
+    .mwb_giftware_reddem_link_wrapper {
+      position: static;
+      transform: none;
+      margin-top: 30px;
+      border: 3px dashed #333;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .mwb-giftware-reddem-image.text-center {
+      height: 140px;
+    }
+    .mwb_redeem_listing{
+      margin: 0 -15px 0 -15px;
+    }
+    .mwb_redeem_listing .mwb_redeem_item:last-child {
+      margin-bottom: 10px;
+    }
+    .mwb-reedem-video {
+      margin: 60px 0;
+    }
+  }
+.mwb_wgm_video_wrapper iframe {
+ width: 100%;
+}
+#mwb_variable_gift {
+  margin-left: 10px;
+}
+.mwb_variable_desc span {
+  width: 220px;
+  display: inline-block;
+}
+.mwb_wgm_variation_giftcard {
+    overflow: hidden;
+    margin: 10px 0;
+}
+.mwb_wgm_variation_giftcard input {
+    margin-right: 20px!important;
+    width: 200px !important;
+}
+.mwb_add_more_price{
+  text-decoration: none;
+}
+.mwb_remove_more_price{
+  text-decoration: none;
+}
+
+

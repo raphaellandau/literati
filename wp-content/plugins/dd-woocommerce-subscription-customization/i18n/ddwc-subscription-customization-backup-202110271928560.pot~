@@ -1,0 +1,120 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Subscriptions Customization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-24 12:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: ddwc-subscription-customization"
+
+#. Author of the plugin
+msgid "DevDiggers"
+msgstr ""
+
+#: functions.php:138
+msgid "Enter email"
+msgstr ""
+
+#: functions.php:146
+msgid "Enter message"
+msgstr ""
+
+#: functions.php:130
+msgid "Enter name"
+msgstr ""
+
+#: functions.php:88
+msgid "Gift Card Buyer Mail Content"
+msgstr ""
+
+#. Section ID
+#: functions.php:56
+msgid "Gift Card Mail Details"
+msgstr ""
+
+#: functions.php:63
+msgid "Gift Card Receiver Mail Content"
+msgstr ""
+
+#: functions.php:122
+msgid "Gift Fields"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/devdiggers"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/user/devdiggers/portfolio"
+msgstr ""
+
+#: functions.php:161
+msgid "I want to print the gift as a gift card"
+msgstr ""
+
+#: functions.php:246 functions.php:378
+msgid "Notification for Gift Card"
+msgstr ""
+
+#: functions.php:104
+msgid ""
+"Placeholders can be used are - {site_title} {site_address} {site_url} "
+"{receiver_name} {product_name} {giver_name} {greeting_text}"
+msgstr ""
+
+#: functions.php:79
+msgid ""
+"Placeholders can be used are - {site_title} {site_address} {site_url} "
+"{receiver_name} {product_name} {giver_name} {greeting_text} "
+"{new_account_text} {new_account_username} {new_account_password_reset_link}"
+msgstr ""
+
+#: functions.php:137
+msgid "Receiver Email"
+msgstr ""
+
+#: functions.php:145
+msgid "Receiver Message"
+msgstr ""
+
+#: functions.php:129
+msgid "Receiver Name"
+msgstr ""
+
+#: functions.php:154
+msgid "Select Date"
+msgstr ""
+
+#: functions.php:153
+msgid "Sending Date"
+msgstr ""
+
+#: functions.php:342
+msgid "text for in case a new account had been created"
+msgstr ""
+
+#: functions.php:49
+msgid ""
+"This field details will be put in the bottom of the mail send to receiver "
+"when some customer gift subsciption to any other user."
+msgstr ""
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "WooCommerce Subscriptions Customization"
+msgstr ""
+
+#: functions.php:41
+msgid ""
+"WooCommerce Subscriptions Customization is enabled but not effective. It "
+"requires WooCommerce Subscriptions in order to use its functionalities."
+msgstr ""

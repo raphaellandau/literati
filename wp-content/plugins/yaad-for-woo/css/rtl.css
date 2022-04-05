@@ -1,0 +1,67 @@
+#yaad-for-woo .plugin-menu ul li{
+    float: right;
+}
+#yaad-for-woo .plugin-menu ul li a{
+    float: right;
+}
+#yaad-for-woo .ymafa-left-sec{
+    float: right;
+}
+#yaad-for-woo .ymaffa-lable-group .form-group label{
+    left: auto;
+    right: 17px;
+}
+#yaad-for-woo .ymafa-left-sec.pull-right{
+    float: left !important;
+}
+#yaad-for-woo .ymait-table .table thead tr th{
+    text-align: right;
+}
+.form-group input[type="checkbox"], .form-group input[type="radio"]{
+    margin-right: 10px;
+}
+#yaad-for-woo .ymafa-plan-sec{
+    float: left;
+}
+#yaad-for-woo .ymafa-plan-sec .table tbody tr td{
+    border-right: 0px;
+    border-left: 1px solid #d8d8d8;
+}
+#yaad-for-woo .ymafa-plan-sec .table thead tr th{
+    border-right: 0px;
+    border-left: 1px solid #d8d8d8;
+}
+#yaad-for-woo .ymafa-plan-sec .table thead tr th:nth-child(1){
+    text-align: right;
+}
+#yaad-for-woo .ymafa-left-sec.disbale-basic .ymaffa-lable-group .form-group::before {
+    left: 0px;
+    right: -29px;
+}
+#yaad-for-woo .ymaffa-lable-group .ymaffa-dropi::before {
+    right: auto;
+    left: 16px;
+}
+#yaad-for-woo .ymafa-support-right{
+    float: left;
+}
+#yaad-for-woo .ymafasr-support-head::before {
+    left: auto;
+    right: 0;
+}
+#yaad-for-woo .ymafasr-supportc-left{
+    float: right;
+}
+#yaad-for-woo .ymafasr-supportc-right{
+    float: right;
+}
+#yaad-for-woo .ymaffa-lable-group .upload-btn-wrapper .btn{
+    text-align: right;
+}
+input[type="email"], input[type="url"] {
+    direction: rtl;
+}
+#yaad-for-woo .mbl-version{
+    margin-right: 15px;
+    margin-left: 0px;
+}

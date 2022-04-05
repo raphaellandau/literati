@@ -1,0 +1,116 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Subscriptions Customization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-01 19:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: ddwc-subscription-customization"
+
+#. Author of the plugin
+msgid "DevDiggers"
+msgstr ""
+
+#: functions.php:104
+msgid "Enter email"
+msgstr ""
+
+#: functions.php:112
+msgid "Enter message"
+msgstr ""
+
+#: functions.php:96
+msgid "Enter name"
+msgstr ""
+
+#. Section ID
+#: functions.php:64 functions.php:71
+msgid "Gift Card Mail Extra Details."
+msgstr ""
+
+#: functions.php:189
+msgid "Gift Card Notification"
+msgstr ""
+
+#: functions.php:88
+msgid "Gift Fields"
+msgstr ""
+
+#: functions.php:174
+#, php-format
+msgid ""
+"Hello %s \n"
+"\n"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/devdiggers"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/user/devdiggers/portfolio"
+msgstr ""
+
+#: functions.php:175
+#, php-format
+msgid ""
+"Message: %s \n"
+"\n"
+msgstr ""
+
+#: functions.php:103
+msgid "Receiver Email"
+msgstr ""
+
+#: functions.php:111
+msgid "Receiver Message"
+msgstr ""
+
+#: functions.php:95
+msgid "Receiver Name"
+msgstr ""
+
+#: functions.php:120
+msgid "Select Date"
+msgstr ""
+
+#: functions.php:119
+msgid "Sending Date"
+msgstr ""
+
+#: functions.php:178
+#, php-format
+msgid ""
+"Sending Date: %s \n"
+"\n"
+msgstr ""
+
+#: functions.php:187
+msgid "Thanks"
+msgstr ""
+
+#: functions.php:51
+msgid ""
+"This field details will be put in the bottom of the mail send to receiver "
+"when some customer gift subsciption to any other user."
+msgstr ""
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "WooCommerce Subscriptions Customization"
+msgstr ""
+
+#: functions.php:43
+msgid ""
+"WooCommerce Subscriptions Customization is enabled but not effective. It "
+"requires WooCommerce Subscriptions in order to use its functionalities."
+msgstr ""

@@ -1,0 +1,30 @@
+parameters:
+	level: 3
+	bootstrapFiles:
+		- test/phpstan/bootstrap.php
+		- test/phpstan/stubs/TCES.stub
+		- test/phpstan/stubs/TC.stub
+		- test/phpstan/stubs/WooCommerce.stub
+
+	scanFiles:
+		#- toolset-blocks.php
+
+	paths:
+		- server
+
+	excludes_analyse:
+		- server/Library/Auryn/*
+		- server/*__test__*
+
+	parallel:
+		processTimeout: 300.0
+
+	ignoreErrors:
+		- '#PHPDoc tag \@param has invalid value \(\$event\)#'
+		- '#PHPDoc tag \@method has invalid value#'
+		# Own
+		- '#Method ToolsetCommonEs\\Library\\WordPress\\Blocks\:\:parse_blocks\(\) should return#'
+		# Toolset API
+		- '#Function toolset_array_merge_recursive_distinct not found#'
+		# Astra
+		- '#Function astra_get_foreground_color not found#'

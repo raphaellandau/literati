@@ -1,0 +1,29 @@
+*** WooCommerce Custom Thank You Pages Changelog ***
+
+2021.02.10 - version 1.0.4
+* [Add] - Add new key for shortcode 'woocommerce_thankyou_order_received_text' (sometimes used by payment gateways)
+* [Fix] - Prevent emptying the cart when payment fails
+
+2020.09.22 - version 1.0.3
+* [Improvement] - Use the pretty order status instead of slug
+* [Improvement] - Use order object methods when available in [order_detail] shortcode
+* [Fix] - Navigation showing when setting is disabled
+* [Add] - 'order_date' for [order_detail] shortcode
+
+2019.10.07 - version 1.0.2
+* [Add] - Ensure custom thank you pages are recognized as 'order received page'
+* [Add] - 'order_number', 'thankyou_action', 'download_urls', and custom order meta for order detail shortcode
+* [Update] - 'status' order detail shows pretty order status instead of slug
+* [Fix] - Global settings not saving in latest WooCommerce
+* [Fix] - Notice in exceptional case where order is not found on thank you page
+
+2019.03.19 - version 1.0.1
+* [Add] - Limited WPML support when using a (custom) post (type) as the thank you page
+* [Add] - Better compatibility with WC Subscriptions (empty the cart when purchasing a free subscription with a custom thank you page)
+* [Add] - New shortcode key [order_detail key='gateway_action'] for gateway specific content
+* [Improvement] - Change when the custom thank you page is triggered - fixes incorrect timing for certain 3rd party payment gateway(s)
+* [Fix] - Quick/bulk edit field width style
+* [Fix] - Global setting not able to be cleared
+
+2018.11.28 - version 1.0.0
+* Initial release.

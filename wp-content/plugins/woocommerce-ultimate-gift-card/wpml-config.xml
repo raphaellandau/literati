@@ -1,0 +1,19 @@
+<wpml-config>
+	<admin-texts>
+		<key name="mwb_wgm_mail_to_recipient_text" />
+		<key name="mwb_wgm_shipping_text" />
+		<key name="mwb_wgm_downloadable_text" />
+		<key name="mwb_wgm_mail_to_recipient_desc" />
+		<key name="mwb_wgm_downloadable_desc" />
+		<key name="mwb_wgm_shipping_desc" />
+		<key name="mwb_wgm_other_setting_receive_subject" />
+		<key name="mwb_wgm_other_setting_giftcard_subject" />
+		<key name="mwb_wgm_other_setting_giftcard_subject_downloadable" />
+		<key name="mwb_wgm_other_setting_giftcard_subject_shipping" />
+		<key name="mwb_wgm_other_setting_receive_coupon_subject" />
+		<key name="mwb_wgm_other_setting_receive_coupon_message" />
+		<key name="mwb_wgm_other_setting_receive_message" />
+		<key name="mwb_wgm_other_setting_disclaimer" />
+		
+	</admin-texts>
+</wpml-config>
