@@ -15,4 +15,21 @@ Tags:           flexible-header, custom-colors, custom-menu, custom-logo, editor
 */
 
 
+#google_login_shortcode {display: none;}
+#facebook_login_shortcode {display: none;}
+#gravity_form_shortcode {display: none;}
+.elementor-editor-active #google_login_shortcode {display: block;}
+.elementor-editor-active #facebook_login_shortcode {display: block;}
+.elementor-editor-active #gravity_form_shortcode {display: block;}
+#social-login .nsl-container {display: inline-block;}
+.social_logins {display:flex !important; justify-content: center;}
+.social_logins .nsl-container-block{margin: 0 10px;}
+div.nsl-container .nsl-button-default div.nsl-button-label-container {margin-right: 0 !important;}
+.woocommerce-account div.nsl-container.nsl-container-block .nsl-container-buttons{display:flex; gap:20px;}
+.woocommerce-account div.nsl-container.nsl-container-block .nsl-container-buttons a {max-width:260px;}
 
+.woocommerce-checkout .nsl-container-buttons{display: flex !important; flex-direction: column;}
+@media (max-width: 767px) {
+.social_logins.gfield_html{flex-direction:column;}
+.social_logins.gfield_html .nsl-container-buttons{width:100%}
+}
