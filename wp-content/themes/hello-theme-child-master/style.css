@@ -1,4 +1,4 @@
-/* 
+/*
 Theme Name:		Hello Elementor Child
 Theme URI:		https://elementor.com/
 Description:	Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
@@ -29,6 +29,9 @@ div.nsl-container .nsl-button-default div.nsl-button-label-container {margin-rig
 .woocommerce-account div.nsl-container.nsl-container-block .nsl-container-buttons a {max-width:260px;}
 
 .woocommerce-checkout .nsl-container-buttons{display: flex !important; flex-direction: column;}
+.gf_page_steps {
+    display: none;
+}
 @media (max-width: 767px) {
 .social_logins.gfield_html{flex-direction:column;}
 .social_logins.gfield_html .nsl-container-buttons{width:100%}
