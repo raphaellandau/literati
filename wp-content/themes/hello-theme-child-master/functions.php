@@ -81,7 +81,7 @@ add_filter( 'woocommerce_add_to_cart_redirect', 'my_custom_add_to_cart_redirect'
 
 add_action('wp_logout','ps_redirect_after_logout');
 function ps_redirect_after_logout(){
-         wp_redirect( 'https://wordpress-603105-2515656.cloudwaysapps.com/' );
+         wp_redirect( 'https://literati.co.il/' );
          exit();
 }
 
@@ -99,7 +99,7 @@ function woo_custom_add_to_cart( $cart_item_data ) {
 
 
 function wc_empty_cart_redirect_url() {
-	return 'https://wordpress-603105-2515656.cloudwaysapps.com/';
+	return 'https://literati.co.il/';
 }
 add_filter( 'woocommerce_return_to_shop_redirect', 'wc_empty_cart_redirect_url' );
 
