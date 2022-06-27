@@ -35,4 +35,5 @@ div.nsl-container .nsl-button-default div.nsl-button-label-container {margin-rig
 @media (max-width: 767px) {
 .social_logins.gfield_html{flex-direction:column;}
 .social_logins.gfield_html .nsl-container-buttons{width:100%}
+.woocommerce-account div.nsl-container.nsl-container-block .nsl-container-buttons{flex-direction: column; align-items: center;}
 }
