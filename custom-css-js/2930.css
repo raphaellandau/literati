@@ -1,0 +1,183 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul {
+  display: flex; flex-wrap: wrap; width: 110% !important; margin-right: -5% !important;
+}
+.not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul {
+  display: flex; flex-wrap: wrap; width: 110% !important; margin-right: -5% !important; margin-top: 150px !important;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul {
+  margin-top: 200px !important;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li {
+  overflow: hidden; flex-basis: calc(16.666666% - 3%); margin: 1.5% !important; background-position: center !important; background-size: 100% !important; max-width: 16.666666%; height: 275px; position: relative;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li > .gfield_description, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li > .gfield_description, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > .gfield_description, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > .gfield_description, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > .gfield_description {
+  position: absolute; width: 100%; height: 100%; right: 0; bottom: -100%; background: rgba(101, 147, 127, 0.8); transition: all ease .5s;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li > .gfield_description .book-overlay, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li > .gfield_description .book-overlay, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > .gfield_description .book-overlay, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > .gfield_description .book-overlay, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > .gfield_description .book-overlay {
+  background: transparent;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li > label, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li > label, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > label, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > label, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > label {
+  display: none;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li ul, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li ul, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul {
+  display: flex; flex-wrap: wrap; max-width: 100%; align-items: center; justify-content: center; position: absolute; bottom: -2%; width: 100%; right: 0; margin-bottom: 0 !important; padding: 10px 0; background: #65937F; z-index: 99;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li ul li, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li ul li, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul li, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul li, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul li {
+  flex-basis: 30%; margin: 0 10px !important;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li ul li label, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li ul li label, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul li label, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul li label, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul li label {
+  background: transparent; padding: 0 !important; margin: 0 !important; font-size: 16px !important; border: none;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li.chosen .gfield_description, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li.chosen .gfield_description, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li.chosen .gfield_description, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li.chosen .gfield_description, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li.chosen .gfield_description {
+  bottom: 0 !important;
+}
+.not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li.toend, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li.toend, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li.toend, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li.toend {
+  height: auto !important; max-width: 100% !important; width: 100% !important; flex-basis: 100% !important; margin-bottom: 0 !important;
+}
+
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul {
+  display: flex; flex-wrap: wrap; width: 110% !important; margin-right: -5% !important;
+}
+.yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul {
+  display: flex; flex-wrap: wrap; width: 110% !important; margin-right: -5% !important; margin-top: 150px !important;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul {
+  margin-top: 200px !important;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li {
+  overflow: hidden; flex-basis: calc(16.666666% - 3%); margin: 1.5% !important; background-position: center !important; background-size: 106% !important; max-width: 16.666666%; height: 275px; position: relative;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > .gfield_description, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > .gfield_description, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > .gfield_description, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li > .gfield_description, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li > .gfield_description {
+  position: absolute; width: 100%; height: 100%; right: 0; bottom: -100%; background: rgba(101, 147, 127, 0.8); transition: all ease .5s;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > .gfield_description .book-overlay, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > .gfield_description .book-overlay, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > .gfield_description .book-overlay, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li > .gfield_description .book-overlay, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li > .gfield_description .book-overlay {
+  background: transparent;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li > label, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li > label, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li > label, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li > label, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li > label {
+  display: none;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li ul, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li ul {
+  display: flex; flex-wrap: wrap; max-width: 100%; align-items: center; justify-content: center; position: absolute; bottom: -2%; width: 100%; right: 0; margin-bottom: 0 !important; padding: 10px 0; background: #65937F; z-index: 99;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul li, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul li, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul li, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li ul li, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li ul li {
+  flex-basis: 30%; margin: 0 10px !important;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li ul li label, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li ul li label, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li ul li label, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li ul li label, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li ul li label {
+  background: transparent; padding: 0 !important; margin: 0 !important; font-size: 16px !important; border: none;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li.chosen .gfield_description, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li.chosen .gfield_description, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li.chosen .gfield_description, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li.chosen .gfield_description, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li.chosen .gfield_description {
+  bottom: 0 !important;
+}
+.yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li.toend, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li.toend, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li.toend, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li.toend {
+  height: auto !important; max-width: 100% !important; width: 100% !important; flex-basis: 100% !important; margin-bottom: 0 !important;
+}
+
+.not-gift .gform_wrapper .gform_page:nth-child(8) .field_description_below {margin-left: 15px !important;}
+.not-gift .gform_body .gform_page:nth-child(8) label {font-size: 35px !important; font-weight: 500; color: #3C3C3C; font-family: 'Rubik', sans-serif;}
+.not-gift .gform_wrapper .gform_page:nth-child(8) .gfield_html {margin-bottom: 25px; width: 100% !important; text-align: center !important;}
+
+.yes-gift .gform_wrapper .gform_page:nth-child(10) .field_description_below {margin-left: 15px !important;}
+.yes-gift .gform_body .gform_page:nth-child(10) label {font-size: 35px !important; font-weight: 500; color: #3C3C3C; font-family: 'Rubik', sans-serif;}
+.yes-gift .gform_wrapper .gform_page:nth-child(10) .gfield_html {margin-bottom: 25px; width: 100% !important; text-align: center !important;}
+
+body.rtl .gform_wrapper .whichbook {float: right; width: 100%; text-align: center !important; font-weight: 500; font-size: 35px; color: #3C3C3C;}
+body.rtl .gform_wrapper .whichsubtitle {float: right; width: 100%; text-align: center !important; margin: 30px 0 0; color: #9e9c9c; font-size: 16px; font-weight: 400 !important;}
+body.rtl .gform_wrapper .whichtitle {position: absolute !important; top: 95px; right: 0; max-width: 100% !important; height: auto !important; width: 100% !important;}
+body.rtl .gform_wrapper .first-question label {position: absolute; top: -80px; width: 885px !important; text-align: center !important; max-width: 885px !important;}
+body.rtl .yes-gift.logged-receiver .gform_wrapper .first-question label {right: -115px;}
+html[dir="rtl"] body .gform_wrapper .top_label .user-password span input, html[dir="rtl"] body .gform_wrapper .top_label .user-password .ginput_complex {margin-top: 0 !important;}
+html[dir="rtl"] body .gform_wrapper .top_label .user-password .ginput_left input {margin-left: 30px !important;}
+
+.book-1 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-05.jpg");}
+.book-2 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-05.jpg");}
+.book-3 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-08.jpg");}
+.book-4 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-03.jpg");}
+.book-5 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-05.jpg");}
+.book-6 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-08.jpg");}
+.book-7 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-01.jpg");}
+.book-8 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-05.jpg");}
+.book-9 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-01.jpg");}
+.book-10 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-01.jpg");}
+.book-11 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-07.jpg");}
+.book-12 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-04.jpg");}
+.book-13 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-08.jpg");}
+.book-14 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-07.jpg");}
+.book-15 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-01.jpg");}
+.book-16 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-03.jpg");}
+.book-17 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-03.jpg");}
+.book-18 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-07.jpg");}
+.book-19 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-02.jpg");}
+.book-20 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-06.jpg");}
+.book-21 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-01.jpg");}
+.book-22 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-03.jpg");}
+.book-23 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-04.jpg");}
+.book-24 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-02.jpg");}
+.book-25 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-04.jpg");}
+.book-26 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-08.jpg");}
+.book-27 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-05.jpg");}
+.book-28 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-01.jpg");}
+.book-29 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-01.jpg");}
+.book-30 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-02.jpg");}
+.book-31 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-02.jpg");}
+.book-32 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-03.jpg");}
+.book-33 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-06.jpg");}
+.book-34 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-044.jpg");}
+.book-35 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-07.jpg");}
+.book-36 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-03.jpg");}
+.book-37 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-07.jpg");}
+.book-38 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-03.jpg");}
+.book-39 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-04.jpg");}
+.book-40 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-01.jpg");}
+.book-41 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-05.jpg");}
+.book-42 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-03.jpg");}
+.book-43 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-02.jpg");}
+.book-44 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-01.jpg");}
+.book-45 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-06.jpg");}
+.book-46 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-02.jpg");}
+.book-47 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-05.jpg");}
+.book-48 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-06.jpg");}
+.book-49 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-07.jpg");}
+.book-50 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-06.jpg");}
+.book-51 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-02.jpg");}
+.book-52 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-06.jpg");}
+.book-53 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-02.jpg");}
+.book-54 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/05-04.jpg");}
+.book-55 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/01-08.jpg");}
+.book-56 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-04.jpg");}
+.book-57 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-06.jpg");}
+.book-58 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/02-04.jpg");}
+.book-59 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/09-07.jpg");}
+.book-60 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-05.jpg");}
+.book-61 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/06-02.jpg");}
+.book-62 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/07-08.jpg");}
+.book-63 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/04-07.jpg");}
+.book-64 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/03-08.jpg");}
+.book-65 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-08.jpg");}
+.book-66 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-01.jpg");}
+.book-67 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-02.jpg");}
+.book-68 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-03.jpg");}
+.book-69 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-04.jpg");}
+.book-70 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-03.jpg");}
+.book-71 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-06.jpg");}
+.book-72 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/10-07.jpg");}
+.book-73 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-01.jpg");}
+.book-74 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-02.jpg");}
+.book-75 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-03.jpg");}
+.book-76 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-04.jpg");}
+.book-77 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-05.jpg");}
+.book-78 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-06.jpg");}
+.book-79 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-07.jpg");}
+.book-80 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-08.jpg");}
+.book-81 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-09.jpg");}
+.book-82 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-10.jpg");}
+.book-83 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-11.jpg");}
+.book-84 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-12.jpg");}
+.book-85 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-13.jpg");}
+.book-86 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-14.jpg");}
+.book-87 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/03/11-15.jpg");}
+.book-88 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-05.jpg");}
+.book-89 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-06.jpg");}
+.book-90 {background: url("https://wordpress-603105-2515656.cloudwaysapps.com/wp-content/uploads/2020/05/12-07.jpg");}</style>
+<!-- end Simple Custom CSS and JS -->

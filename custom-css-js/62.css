@@ -1,0 +1,174 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (max-width: 767px) {
+  
+  .rtl .woocommerce .col2-set .col-1, .rtl .woocommerce-page .col2-set .col-1, .rtl .woocommerce .col2-set .col-2, .rtl .woocommerce-page .col2-set .col-2 {max-width: 100%; width: 100%;}
+  
+  .not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul {display: block !important;}
+  .not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(4) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li, .not-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li {max-width: calc(50% - 3%) !important;}
+  .not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul {margin-top: 275px !important; padding: 0 15px !important;}
+  
+  .yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul {display: block !important;}
+  .yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(6) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(7) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(8) .gform_page_fields > ul > li, .yes-gift .gform_body .gform_page:nth-child(9) .gform_page_fields > ul > li {max-width: calc(50% - 3%) !important;}
+  .yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul {margin-top: 275px !important; padding: 0 15px !important;}
+  
+  html[dir="rtl"] body .gform_wrapper ul.gform_fields li.user-address .ginput_container span {margin: 0 !important;}
+  html[dir="rtl"] body .gform_wrapper ul.gform_fields li.user-password {margin-right: 0 !important;}
+  html[dir="rtl"] body .gform_wrapper .gform_page .top_label .user-password .ginput_left input {margin-left: 0 !important;}
+  html[dir="rtl"] body .gform_wrapper .gform_page .top_label .user-password .ginput_left input, html[dir="rtl"] body .gform_wrapper .gform_page .top_label .user-password .ginput_right input {width: 100% !important;}
+  
+  html body.rtl .gform_body .gform_page .first-question label {max-width: 100% !important;}
+  body .gform_wrapper ul li.gfield {width: 100% !important;}
+  .inner-testie img {height: 195px;}
+ body .not-gift .gform_body .gform_page .gform_page_fields > ul > li.whichtitle, body .yes-gift .gform_body .gform_page .gform_page_fields > ul > li.whichtitle {max-width: 100% !important;}
+  
+body .gform_body .gform_page .gform_page_fields > ul > li.book-1 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-2 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-3 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-4 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-5 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-6 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-7 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-8 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-9 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-10 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-11 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-12 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-13 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-14 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-15 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-16 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-17 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-18 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-19 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-20 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-21 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-22 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-23 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-24 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-25 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-26 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-27 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-28 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-29 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-30 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-31 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-32 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-33 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-34 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-35 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-36 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-37 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-38 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-39 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-40 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-41 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-42 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-43 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-44 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-45 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-46 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-47 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-48 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-49 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-50 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-51 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-52 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-53 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-54 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-55 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-56 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-57 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-58 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-59 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-60 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-61 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-62 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-63 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-64 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-65 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-66 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-67 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-68 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-69 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-70 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-71 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-72 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-73 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-74 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-75 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-76 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-77 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-78 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-79 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-80 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-81 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-82 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-83 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-84 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-85 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-86 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-87 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-88 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-89 ul.gfield_radio, 
+body .gform_body .gform_page .gform_page_fields > ul > li.book-90 ul.gfield_radio {
+  display: flex !important;
+  }
+  
+  .not-gift .gform_body .gform_page:nth-child(8) label {text-align: center !important;}
+  .yes-gift .gform_body .gform_page:nth-child(10) label {text-align: center !important;}
+  
+  .recom-content {font-size: 2.5vw !important;}
+  .inner-testie h4 {font-size: 3vw !important;}
+  .recom-location {font-size: 2.5vw !important;}
+  
+  [dir='rtl'] .slick-next {left: 5px !important;}
+[dir='rtl'] .slick-prev {right: 5px !important;}
+  html body .gform_wrapper ul.gform_fields li.last-step {display: block !important; margin: 0 !important;}
+  body.rtl .gform_wrapper ul li.gfield input[type="password"] {width: 100% !important; margin-left: 0 !important;}
+  
+  html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-address .ginput_container {display: block !important;}
+  
+  html[dir=rtl] .gform_wrapper {padding-right: 0 !important;}
+  body .gform_wrapper .top_label .gfield_label {margin-bottom: 25px !important;}
+  html body.rtl .gform_page_footer {margin-top: 10px !important;}
+  .gform_wrapper ul.gfield_checkbox#input_1_11, .gform_wrapper ul.gfield_checkbox#input_1_13, .gform_wrapper ul.gfield_checkbox#input_1_15, .gform_wrapper ul.gfield_checkbox#input_1_14 {display: flex !important;}
+  .gform_wrapper .gform_page_footer .button.gform_next_button, .gform_wrapper .gform_page_footer .button.gform_previous_button, .gform_wrapper .gform_page_footer .button.gform_button {font-size: 14px !important;}
+  body .gform_wrapper ul li#field_1_2, body .gform_wrapper ul li#field_1_3 {display: block !important;}
+  body .first-question label {position: relative !important; width: initial !important; top: auto !important;}
+  body .has_first_name {display: block !important;}
+  html body.rtl .gform_wrapper ul li.gfield input[type="text"], html body.rtl .gform_wrapper ul li.gfield select {width: 100% !important;}
+  .gform_wrapper ul li.gfield {width: 100% !important;}
+  html body.rtl .gform_wrapper ul li.sex {margin-right: 0 !important;}
+  body .gform_wrapper ul li.gfield {margin-top: 0 !important;}
+  div.ginput_complex.ginput_container.gf_name_has_2 span {max-width: 100% !important;}
+  html[dir=rtl] .gform_footer, html[dir=rtl] .gform_page_footer {padding-left: 0 !important;}
+  html body .gform_wrapper.gf_rtl_wrapper .gf_step span.gf_step_number, html body.rtl .gform_wrapper .gf_step span.gf_step_number, html[dir=rtl] .gform_wrapper .gf_step span.gf_step_number {font-size: 12px !important; width: 24px !important; padding: 4px 4px 2px 4px !important;}
+  html body .gform_wrapper.gf_rtl_wrapper .gform_wrapper .gf_step, html body.rtl .gform_wrapper .gf_step, html[dir=rtl] .gform_wrapper .gf_step {display: inline-block !important;}
+  .gform_wrapper .screen-reader-text, .gform_wrapper label.hidden_sub_label {display: none !important;}
+  .gform_wrapper .gf_page_steps:after {background: none !important; border-top: 1px solid #9e9c9c; top: 30% !important;}
+  .gform_wrapper .validation_message {position: relative !important; padding: 0 !important;}
+  html[dir=rtl] body .gform_wrapper ul.gform_fields li.gfield.gfield_error {padding-right: 0 !important;}
+  .gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label, .gform_wrapper #field_1_22 label {text-align: center !important; font-size: 22px !important;}
+  body.rtl .gform_wrapper .books-question .gfield_description {font-size: 14px !important; padding: 0 !important;}
+  body .gform_wrapper .books-question ul.gfield_checkbox {width: 100% !important; margin-right: 0 !important;}
+  body .gform_wrapper .books-question ul.gfield_checkbox li {flex-basis: 33.33333% !important; padding: 1.5% 1.5% 0% 1.5% !important;}
+  .gform_wrapper #field_1_19, .gform_wrapper #field_1_21 {margin-left: 0 !important;}
+  .gform_wrapper #field_1_23, body .gform_wrapper ul li.regular-description {margin-top: 50px !important;}
+  html body.rtl .gform_wrapper .gfield_radio label {font-size: 14px !important;}
+  .gform_wrapper ul.gfield_checkbox, .gform_wrapper ul.gfield_radio {display: block !important;}
+  .gform_wrapper .books-question ul {display: flex !important;}
+  html body.rtl .gform_wrapper .gfield_radio label {max-width: 100% !important; margin: 0 !important; width: 100% !important;}
+  body.rtl .gform_wrapper .booktitle {font-size: 14px !important;}
+  body.rtl .gform_wrapper .bookauthor {font-size: 10px !important;}
+  .book-overlay {padding: 5px !important; margin: 0 !important; width: 90% !important; height: 92% !important; top: 3% !important; right: 4% !important;}
+  .chosen .book-overlay {display: flex !important;}
+  body .gform_wrapper #field_1_19, body .gform_wrapper #field_1_21 {margin-left: 0 !important;}
+  body .gform_wrapper .top_label li ul#input_1_25 li label {margin: 0 !important;}
+  
+  .border-column:before, .border-column:after {display: none !important;}
+  .testie-text p {font-size: 26px !important; line-height: 32px !important;}
+  .footer-menu li:after {display: none !important;}
+  
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,505 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,600,700,900&display=swap&subset=hebrew');
+.mwb_wgm_msg_info {display: none !important;}
+.inner-testie {
+  position: relative;
+  display: flex !important;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 15px !important;
+}
+
+#order_review_heading, #order_review {float: right; width: 100%;}
+.rtl .woocommerce .col2-set .col-1, .rtl .woocommerce-page .col2-set .col-1, .rtl .woocommerce .col2-set .col-2, .rtl .woocommerce-page .col2-set .col-2 {max-width: 48%; width: 100%;}
+
+.openreg {text-decoration: underline;}
+.openreg:hover {cursor: pointer;}
+
+#ddwcsc-gift-fields-wrapper {display: none;}
+
+.mwb_wgm_expiry_notice, .mwb_wgm_selected_template, .single-product .product_meta, .related.products {display: none !important;}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #65937f !important; border: none !important;}
+
+.logged-in .loginlink {display: none;}
+.loginlink p {margin: 0;}
+
+html body.rtl #gform_page_7_1 .gform_page_footer {margin-top: 80px !important;}
+.already input {position: absolute; bottom: 80px; right: 0; left: 0; margin: auto;}
+
+body.page-on-boarding .gf_page_steps .gf_step:nth-child(4), body.page-on-boarding .gf_page_steps .gf_step:nth-child(5), body.page-on-boarding .gf_page_steps .gf_step:nth-child(6), body.page-on-boarding .gf_page_steps .gf_step:nth-child(7) {
+    display: none !important;
+}
+
+body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(6), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(7), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(8), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(9) {
+    display: none !important;
+}
+
+#coupon_code {min-width: 200px; height: 40px;}
+button[name='update_cart'] {height: 40px;}
+
+.show-stuff {display: block !important;}
+.hide-stuff {display: none !important;}
+
+.mwb_wgm_send_giftcard {
+    margin-right: 0;
+  margin-left: 5px;
+}
+
+.yes-gift .gf_step {
+      width: 7.14% !important;
+}
+.inner-testie img, .recom-text {flex-basis: 50%; box-shadow: 0 0 10px gainsboro; width: 50%;}
+.recom-text {
+  padding: 15px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  background: #eaeaea;
+}
+
+.testie-overlay {
+  position: absolute;
+  width: calc(100% - 30px);
+  background: rgb(0 0 0 / 0.4);
+  height: 100%;
+  right: 15px;
+  top: 0;
+}
+
+.recom-location {font-weight: 400 !important; font-size: 0.8vw;}
+
+.recom-content {
+  font-size: .95vw;
+    line-height: 1.2;
+}
+
+.inner-testie h4 {font-size: 1vw; text-align: right;}
+
+.edit-minuy {display: none;}
+.logged-in .edit-minuy {display: block;}
+.magic {display: none !important; margin-bottom: 30px !important;}
+.magic .refresher {
+  background: #65937F;
+    border: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 22px;
+    color: white !important;
+    font-size: 20px;
+}
+
+.woocommerce-ResetPassword.lost_reset_password, .page-id-175 .page-content {max-width: 1280px !important; margin: 0 auto !important;}
+body .gform_wrapper li.hidden_label input#input_1_43, body .gform_wrapper li.hidden_label input#input_1_43_2, body .gform_wrapper .top_label div.ginput_container#input_1_43_container,
+body .gform_wrapper li.hidden_label input#input_6_43, body .gform_wrapper li.hidden_label input#input_6_43_2, body .gform_wrapper .top_label div.ginput_container#input_6_43_container {margin-top: 0 !important;}
+html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-password {vertical-align: middle; margin-top: 3px !important; margin-right: 15px !important;}
+body .gform_wrapper li.hidden_label input#input_1_43, body .gform_wrapper li.hidden_label input#input_6_43 {margin-left: 30px;}
+body.rtl .gform_wrapper .bg_footer_container {text-align: center !important;}
+.woocommerce-notices-wrapper {display: none;}
+.forme, .forother {display: none;}
+
+.wc_payment_method.payment_method_yaad_payment {display: none !important;}
+
+.slick-prev:before, .slick-next:before {color: #65937f !important; font-family: "Font Awesome 5 Free" !important; font-weight: 900 !important; font-size: 30px !important;}
+.slick-prev:before {content: "\f054" !important;}
+.slick-next:before {content: "\f053" !important;}
+.inner-book, .inner-testie {padding: 0 15px;}
+.inner-book img {width: 100%;}
+.slick-prev, .slick-next {top: -57px !important; position: absolute !important; font-size: 0 !important; padding: 0 !important; border: none !important;}
+[dir='rtl'] .slick-next {left: 25% !important;}
+[dir='rtl'] .slick-prev {right: 25% !important;}
+.gform_wrapper .ginput_complex .ginput_right, html[dir="rtl"] .gform_wrapper .ginput_complex .ginput_left {margin: 0 0 0 -4px !important;}
+.elementor-blockquote__content {text-align: right;}
+
+
+.elementor-widget-text-editor {color: black;}
+
+.woocommerce-page .site-main {padding: 50px 0;}
+
+.more-thoughts {display: none;}
+.more-trigger {
+  float: left;
+    padding: 1% 3%;
+    background: #65937f;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5vw;
+}
+.single-post p {margin-bottom: 20px;}
+.top-meta {display: flex; flex-wrap: wrap; align-items: center; color: black;}
+.author-img {flex-basis: 100px; margin-left: 10px;}
+.mailchimper h5 {display: none !important;}
+.author-name {font-weight: 700; font-size: 20px;}
+
+
+.mc4wp-form-fields {text-align: center;}
+.mc4wp-form-fields input[type="submit"] {background-color: #65937f !important; color: white !important; border: none !important; border-radius: 30px;}
+
+.elementor-post__read-more {background: #66937f; padding: 10px 40px; border-radius: 30px;}
+
+
+.more-trigger:hover {cursor: pointer;}
+html, body {max-width: 100%; overflow-x: hidden;}
+a.showcoupon {color: white; text-decoration: underline;}
+.woocommerce-checkout #payment {background: white !important; padding: 0 !important;}
+.woocommerce-checkout #payment div.form-row {padding: 0 !important;}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {width: 100% !important; margin-left: 0;}
+a.showlogin {color: white; text-decoration: underline;}
+
+a {color: #c33;}
+.checkout-button, #payment .place-order .button {background-color: #65937f !important; width: 100%;}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {padding: 0.789em 1em; margin-left: 10px;}
+table tbody tr:hover>td, table tbody tr:hover>th {background-color: initial;}
+html .woocommerce a.remove {color: #c33 !important;}
+html .woocommerce a.remove:hover {background: #c33 !important;}
+
+.product-name fieldset {background: #65937f; color: white; border: none;}
+.product-name input[type=checkbox] {vertical-align: middle;}
+
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], select, textarea {border: 1px solid #a6a6a6;}
+
+.select2-container .select2-selection--single {height: 37px;}
+.select2-container--default .select2-selection--single .select2-selection__rendered {line-height: 37px;}
+
+.edit-minuy .far {font-family: "Font Awesome 5 Free";}
+
+.rtl .woocommerce .col2-set .col-1, .rtl .woocommerce-page .col2-set .col-1 {float: right;}
+.rtl .woocommerce .col2-set .col-2, .rtl .woocommerce-page .col2-set .col-2 {float: left;}
+
+.hidden-in-gravity {display: none !important;}
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {display: none;}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {border-radius: 0;}
+
+
+.woocommerce-info, .woocommerce-message {line-height: 50px; border: none !important; background: #65937f; color: white; font-size: 22px; padding-right: 2em;}
+
+.gform_wrapper .gf_page_steps {border-bottom: none !important;}
+.woocommerce-table.woocommerce-table--subscription-gifting-information.shop_table.subscription_gifting_information {display: none !important;}
+.woocommerce table.shop_table td, .woocommerce table.shop_table th {text-align: right !important;}
+
+.page-id-175 .entry-title {display: none !important;}
+.entry-title {font-weight: 900;}
+
+html[dir=rtl] .gform_wrapper ul.gform_fields li.period {width: 100% !important; flex-basis: 100% !important;}
+html[dir=rtl] .gform_wrapper ul.gform_fields li.period label {font-size: 16px !important;}
+
+html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-address {width: 100% !important; float: right;}
+html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-address .ginput_container {display: flex;}
+html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-address .ginput_container span {flex-basis: 33.33333% !important; margin: 0 15px !important;}
+html[dir="rtl"] .gform_wrapper ul.gform_fields li.user-address .ginput_container span input {width: 100% !important;}
+
+.current-menu-item a {font-weight: 700 !important;}
+
+body, li, ul, a, p, div, span, h1, h2, h3, h4, h5, h6, input, button, strong {font-family: 'Rubik', sans-serif;}
+
+/*.gf_page_steps .gf_step {width: 8.33333333333% !important;}
+.yes-gift .gf_page_steps .gf_step {width: 7.14% !important;}*/
+.gf_page_steps {
+  display: flex;
+  min-height: 37px;
+  justify-content: space-between;
+  padding: 0 25px!important;
+}
+
+html body .gform_wrapper.gf_rtl_wrapper .gform_wrapper .gf_step, html body.rtl .gform_wrapper .gf_step, html[dir=rtl] .gform_wrapper .gf_step {
+  margin: 0 !important;
+  text-align: center !important;
+  opacity: 1 !important;
+}
+body .gform_wrapper ul.gform_fields li.last-step {margin: 16px 15px 0 15px !important;}
+.gform_wrapper div.validation_error {display: none !important;}
+body.rtl .gform_wrapper .books-question .gfield_description#gfield_description_1_13, body.rtl .gform_wrapper .books-question .gfield_description#gfield_description_1_15,
+body.rtl .gform_wrapper .books-question .gfield_description#gfield_description_1_14, body.rtl .gform_wrapper .books-question .gfield_description#gfield_description_1_11 {margin-bottom: 20px !important;}
+#gform_page_1_4 .gform_page_footer, #gform_page_1_5 .gform_page_footer, #gform_page_1_6 .gform_page_footer, #gform_page_1_3 .gform_page_footer {margin-top: 15px !important;}
+.books-question label {margin-bottom: 30px !important;}
+body.rtl .gform_wrapper .books-question .gfield_description {padding-top: 0; margin-bottom: 50px; padding-bottom: 0; text-align: center !important; color: #9e9c9c; font-size: 16px;}
+html body .gform_wrapper.gf_rtl_wrapper .gf_step span.gf_step_number, html body.rtl .gform_wrapper .gf_step span.gf_step_number, html[dir=rtl] .gform_wrapper .gf_step span.gf_step_number {
+  border: 1px solid #9e9c9c;
+  text-align: center !important;
+  width: 40px;
+    margin: 0 !important;
+    float: none !important;
+    padding: 6px;
+  font-size: 22px;
+    border-radius: 100px;
+  color: #9e9c9c;
+  background: white;
+  z-index: 999999;
+  font-family: 'Rubik', sans-serif;
+}
+.gform_wrapper .validation_message {position: absolute; width: auto;}
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {background: white; border: none; margin-bottom: 0 !important;}
+html[dir=rtl] .gform_wrapper .gform_page_footer input.button:focus {outline: none !important;}
+.gfield_required {display: none;}
+.gform_wrapper .gf_step.gf_step_active span.gf_step_number {color: white !important; background: #65937F !important; border-color: #65937F !important;}
+.gform_wrapper .gf_page_steps {border-bottom: none; position: relative;}
+#billing_country_field {display: none !important;}
+
+.gform_wrapper .gf_page_steps:after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(to right, #9e9c9c 55%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 11px 1px;
+    background-repeat: repeat-x;
+  top: 58%;
+  right: 5%;
+  z-index: -1;
+}
+
+
+
+html body.rtl #gform_page_1_11 .gform_page_footer {float: right; width: 100%;}
+.gform_wrapper textarea.medium {height: 120px !important;}
+.gform_wrapper #gform_page_1_8 .top_label li ul.gform_fields, .gform_wrapper #gform_page_1_8 .top_label li ul.gfield_radio,
+.gform_wrapper #gform_page_3_8 .top_label li ul.gfield_radio, .gform_wrapper #gform_page_4_8 .top_label li ul.gfield_radio
+{width: 100% !important;}
+.gform_wrapper #gform_page_1_8 .top_label li ul.gfield_radio li:nth-child(4), .gform_wrapper #gform_page_3_8 .top_label li ul.gfield_radio li:nth-child(4), .gform_wrapper #gform_page_4_8 .top_label li ul.gfield_radio li:nth-child(4) {flex-basis: 52%;}
+.gform_wrapper #gform_page_1_8 .top_label li ul.gform_fields li, .gform_wrapper #gform_page_1_8 .top_label li ul.gfield_radio li, .gform_wrapper #gform_page_3_8 .top_label li ul.gfield_radio li, .gform_wrapper #gform_page_4_8 .top_label li ul.gfield_radio li {text-align: center !important; margin: 0 10px !important;}
+.gform_wrapper #gform_page_1_8 .top_label li ul.gfield_radio li label, .gform_wrapper #gform_page_3_8 .top_label li ul.gfield_radio li label, .gform_wrapper #gform_page_4_8 .top_label li ul.gfield_radio li label {width: 100% !important; max-width: 100%; margin: 0 !important;}
+html[dir=rtl] .gform_wrapper span.ginput_left, html[dir=rtl] body.rtl .gform_wrapper ul.gform_fields li.gfield {text-align: center !important; padding: 0 !important;}
+.gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label, .gform_wrapper #field_1_22 label, .gform_wrapper #field_6_22 label, html[dir=rtl] .gform_wrapper ul.gform_fields li.period > label,
+.gform_wrapper #gform_page_3_7 label, .gform_wrapper #gform_page_4_7 label.gfield_label, .gform_wrapper #gform_page_4_8 label.gfield_label, .gform_body #gform_page_4_8 label, .gform_body #gform_page_3_8 label, .gform_body #gform_page_5_8 label, .gform_wrapper #gform_page_6_14 label.gfield_label, .gform_wrapper #gform_page_7_8 label.gfield_label, .gform_body #gform_page_7_8 label {
+  font-size: 35px !important;
+  font-weight: 500;
+  color: #3C3C3C;
+  font-family: 'Rubik', sans-serif;
+}
+.gform_wrapper #gform_page_6_14 label.gfield_label, .gform_wrapper #gform_page_7_8 label.gfield_label {float: right; width: 100% !important; margin-bottom: 30px !important;;}
+.gform_wrapper #field_1_22, .gform_wrapper #field_6_22, .gform_wrapper #field_1_23, .gform_wrapper #field_1_26, .gform_wrapper #field_1_31, body .gform_wrapper ul li.regular-description {float: right; width: 100% !important;}
+body.rtl .gform_wrapper #gform_page_1_9 .gfield_radio label, body.rtl .gform_wrapper #gform_page_6_9 .gfield_radio label {width: 100% !important;}
+body.rtl .gform_wrapper #gform_page_1_9 .gfield_radio, body.rtl .gform_wrapper #gform_page_6_9 .gfield_radio {flex-wrap: wrap;}
+body.rtl .gform_wrapper #gform_page_1_9 .gfield_radio li, body.rtl .gform_wrapper #gform_page_6_9 .gfield_radio li {flex-basis: 33.333333% !important;}
+body.rtl .gform_wrapper #gform_page_3_9 .gfield_radio label {width: 100% !important;}
+body.rtl .gform_wrapper #gform_page_3_9 .gfield_radio {flex-wrap: wrap;}
+body.rtl .gform_wrapper #gform_page_3_9 .gfield_radio li {flex-basis: 33.333333% !important;}
+body.rtl .gform_wrapper #gform_page_6_9 .gfield_radio label, body.rtl .gform_wrapper #gform_page_4_9 .gfield_radio label, body.rtl .gform_wrapper #gform_page_3_9 .gfield_radio label, body.rtl .gform_wrapper #gform_page_1_9 .gfield_radio label, body.rtl .gform_wrapper #gform_page_5_9 .gfield_radio label {width: 90% !important; padding: 5px !important;}
+body.rtl .gform_wrapper #gform_page_4_9 .gfield_radio {flex-wrap: wrap;}
+body.rtl .gform_wrapper #gform_page_4_9 .gfield_radio li {flex-basis: 33.333333% !important;}
+body.rtl .gform_wrapper #gform_page_5_9 .gfield_radio {flex-wrap: wrap;}
+body.rtl .gform_wrapper #gform_page_5_9 .gfield_radio li {flex-basis: 33.333333% !important;}
+.gform_wrapper #field_1_22, .gform_wrapper #gform_page_3_7 .gfield_html, .gform_wrapper #gform_page_4_7 .gfield_html, .gform_wrapper #gform_page_4_8 .gfield_html, .gform_wrapper #gform_page_3_8 .gfield_html, .gform_wrapper #gform_page_5_8 .gfield_html, .gform_wrapper #gform_page_7_8 .gfield_html {margin-bottom: 25px; width: 100% !important; text-align: center !important;}
+.gform_wrapper #field_1_19, .gform_wrapper #field_6_19, .gform_wrapper #field_1_21, .gform_wrapper #field_6_21, .gform_wrapper #gform_page_3_7 .field_description_below, .gform_wrapper #gform_page_4_7 .field_description_below, .gform_wrapper #gform_page_4_8 .field_description_below, .gform_wrapper #gform_page_7_8 .field_description_below, .gform_wrapper #gform_page_3_8 .field_description_below, .gform_wrapper #gform_page_5_8 .field_description_below, .gform_wrapper #gform_page_7_9 .field_description_below {margin-left: 15px !important;}
+.gform_wrapper #field_1_23, body .gform_wrapper ul li.regular-description, .gform_wrapper #field_3_23, .gform_wrapper #field_4_23 {margin-top: 50px !important; color: #9e9c9c;}
+.gform_wrapper #field_3_23, .gform_wrapper #field_4_23 {margin-bottom: 0 !important;}
+.gform_wrapper #field_1_31, .gform_wrapper #field_1_26 {margin-top: 25px; color: #9e9c9c;}
+.gform_body {margin-top: 50px;}
+.gform_wrapper .top_label .gfield_label {margin-bottom: 50px;}
+html body.rtl .gform_page_footer {border: none !important; text-align: center !important; margin-top: 25px;}
+.gform_wrapper .gform_page_footer .button.gform_next_button, .gform_wrapper .gform_page_footer .button.gform_previous_button, .gform_wrapper .gform_page_footer .button.gform_button, .gform_wrapper .toend input[type="button"], .gform_wrapper .already input[type="button"] {
+    background: #65937F;
+    border: none;
+    font-weight: 600;
+    padding: 5px 75px;
+    border-radius: 22px;
+  color: white !important;
+  font-size: 20px;
+  min-height: 38px;
+}
+.gform_wrapper .gform_page_footer .button.gform_previous_button {
+  background: transparent;
+  border: 1px solid #65937F;
+  color: #65937F!important;
+}
+@media (min-width:640px) {
+  .bookpage:not(.last) .toend,.bookpage:not(.last) .gform_page_footer {
+    overflow: visible!important;
+    min-height:40px;
+  }
+  .bookpage:not(.last) .gform_next_button {
+      position: absolute;
+      margin-top: -70px!important;
+      left: calc(50% - 117px);
+  }
+  .bookpage:not(.last) .gform_previous_button {
+    position: absolute;
+    right: calc(50% - 280px);
+  }
+  .bookpage:not(.last) .toend input {
+      position: absolute;
+      bottom: -82px;
+      left: calc(50% - 248px);
+      padding: 5px 70px!important;
+  }
+}
+@media (max-width:767px) and (min-width:640px) {
+  .bookpage:not(.last) .toend input {
+    bottom: -71px;
+    left: calc(50% - 220px);
+  }
+  .bookpage:not(.last) .gform_previous_button {
+    right: calc(50% - 235px);
+  }
+}
+@media (max-width:640px) {
+  .bookpage:not(.last) .toend {
+    overflow: visible!important;
+  }
+  body.rtl .gform_legacy_markup_wrapper .toend input[type=button] {
+    width: calc(100vw - 20px);
+    text-align: center!important;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+  }
+  .not-gift .gform_body .gform_page:nth-child(3) .gform_page_fields > ul > li.toend input[type=button],
+  .yes-gift .gform_body .gform_page:nth-child(5) .gform_page_fields > ul > li.toend input[type=button]{
+    right:0;
+  }
+  .bookpage:not(.last) .gform_page_footer.top_label {
+    padding-bottom: 50px;
+  }
+  .gform_page_footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .gform_wrapper .bookpage:not(.last) .gform_page_footer .button.gform_next_button {
+    width: 50%;
+    margin: 0 auto 100px;
+    padding: 5px;
+  }
+}
+html[dir="rtl"] body.rtl .gform_wrapper ul.gform_fields li.gfield.first-question {text-align: right !important;}
+body.rtl .gform_wrapper .booktitle, body.rtl .gform_wrapper .bookauthor {line-height: 1; text-align: center !important; font-family: 'Rubik', sans-serif; font-size: 16px;}
+body.rtl .gform_wrapper .booktitle {font-size: 26px; font-weight: 500 !important; margin-bottom: 5px;}
+body.rtl .gform_wrapper .bookauthor {font-weight: 400 !important;}
+.book-overlay {
+  display: none;
+  opacity: 0;
+  transition: all ease .5s;
+  position: absolute;
+  width: 81.5%;
+    height: 88.2%;
+    top: 6%;
+    right: 9.1%;
+  padding: 20px;
+  background: rgba(101, 147, 127, 0.8);
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body.rtl .gform-wrapper .first-question label {position: absolute !important; top: -80px; width: 100%;}
+body.rtl .gform_wrapper ul li.sex {margin-right: 12px !important;}
+.first-question {margin-top: 80px !important; position: relative;}
+body .has_first_name {display: flex; justify-content: center; align-items: center;}
+html body.rtl .gform_wrapper ul {text-align: center !important;}
+.gform_wrapper ul li.gfield {width: auto !important; display: inline-block; max-width: 100%;}
+body.rtl .gform_wrapper ul li.gfield input[type="text"], body.rtl .gform_wrapper ul li.gfield select, body.rtl .gform_wrapper ul li.gfield input[type="password"] {color: #3c3c3c; font-size: 16px; width: 205px !important; height: 40px; padding: 0 10px !important; border-radius: 5px; border-color: #3c3c3c;}
+div.ginput_complex.ginput_container.gf_name_has_2 span {width: auto;}
+body img.gform_ajax_spinner {
+ display: none !important;
+}
+html[dir=rtl] .gform_wrapper .gfield_checkbox li label, html[dir=rtl] .gform_wrapper .gfield_radio li label {font-size: 16px; color: #3c3c3c;}
+.gform_wrapper ul.gfield_checkbox, .gform_wrapper ul.gfield_radio {display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+.gform_wrapper ul.gfield_checkbox li label, .gform_wrapper ul.gfield_radio li label {font-size: 16px; font-weight: 500; color: #3c3c3c;}
+.gform_wrapper ul.gfield_radio input, .gform_wrapper ul.gfield_checkbox input {display: none !important;}
+body.rtl .gform_wrapper .gfield_radio label {background: white; padding: 4px 30px !important; color: #3c3c3c !important; border: 1px solid #3c3c3c; border-radius: 5px; text-align: center !important; width: 260px !important; margin: 10px 15px !important; max-width: 100%; font-size: 20px !important;}
+body.rtl .gform_wrapper .gfield_radio label.hlighted {background: #65937F !important; color: white !important; border-color: #65937F !important;}
+.gform_wrapper .books-question ul.gfield_checkbox {flex-wrap: wrap; width: 110% !important; margin-right: -5% !important;}
+.gform_wrapper .books-question ul.gfield_checkbox li {flex-basis: 16.666666%; padding: 1.5% 1.5% 1% 1.5% !important; margin: 0 !important;}
+.gform_wrapper .books-question ul.gfield_checkbox li label img {width: 100%;}
+.gform_wrapper .books-question ul.gfield_checkbox li label {max-width: 100%; width: 100%; margin: 0 !important;}
+.chosen .book-overlay {display: flex; opacity: 1;}
+
+
+.border-column:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-right: 1px dashed #3C3C3C;
+  height: 55%;
+  width: 1px;
+}
+
+.border-column:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-left: 1px dashed #3C3C3C;
+  height: 55%;
+  width: 1px;
+}
+
+.testie-text {
+  position: absolute;
+  opacity: 0;
+  bottom: 0%;
+  transition: all ease .5s;
+  width: 100%;
+  height: 100%;
+  background: rgba(101, 147, 127, 0.9);
+  padding: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.testie {overflow: hidden;}
+.testie:hover .testie-text {opacity: 1;}
+.testie-text p {margin-bottom: 30px;}
+.testie-text p:last-child {margin-bottom: 0 !important;}
+.testie-text strong {font-weight: 500;}
+
+.footer-menu li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30%;
+  height: 20px;
+  width: 1px;
+  background: white;
+}
+.footer-menu li:last-child:after {display: none;}
+
+
+
+#error-page {max-width: 100% !important; margin: 0 !important; padding: 0 !important;}
+
+.social_logins .nsl-container:first-of-type:before {
+    content: "או";
+    display: block;
+    position: absolute;
+    right: calc(50% - 7px);
+    margin-top: -25px;
+}
+
+.social_logins {
+    margin-top: 30px!important;
+}
+.woocommerce-checkout form.woocommerce-checkout{max-width:1200px; margin:auto}
+.woocommerce-checkout .page-header{max-width:1200px; margin:auto}
+.woocommerce-checkout .woocommerce-info, .woocommerce-checkout .woocommerce-message{max-width:1200px; margin:auto}
+.woocommerce-checkout .woocommerce-info{margin-bottom:10px;}
+.woocommerce-checkout div.nsl-container[data-align="left"]{text-align:right!important}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+     max-width: 1200px;
+    margin: 2em auto;
+}
+.woocommerce-cart main {
+  max-width: 1200px;
+  margin: auto;
+}
+@media (max-width:1320px) {
+  .woocommerce-checkout form.woocommerce-checkout,
+  .woocommerce-checkout .page-header,
+  .woocommerce-checkout .woocommerce-info, .woocommerce-checkout .woocommerce-message,
+  .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register,
+  .woocommerce-cart main {
+    max-width: 100%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+}
+@media(max-width:767px){
+.woocommerce-checkout form.woocommerce-checkout{padding:0 15px;}
+.woocommerce-checkout .page-header{padding-left: 15px;padding-right: 15px;}
+  .woocommerce-checkout .woocommerce-info, .woocommerce-checkout .woocommerce-message{padding-left: 15px;padding-right: 15px;}
+}</style>
+<!-- end Simple Custom CSS and JS -->
