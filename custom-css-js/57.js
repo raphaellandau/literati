@@ -1,9 +1,13 @@
-<!-- start Simple Custom CSS and JS -->
-<script type="text/javascript">
 jQuery(document).ready(function( $ ){
-
   
-
+/*
+  $(".hidden-in-gravity").each(function() {
+    $('#new_password').attr("autocomplete", "off");
+    setTimeout(function(){
+      $("#new_password").val("").focus(); }, 2000);
+  });
+  
+  */
   
 $("select.price-change").on("change", function() {
     var productLink = $(this).find("option:selected").attr("product-link");
@@ -37,23 +41,37 @@ $('.books-carousel').slick({
   
 $('.testies-carousel').slick({
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 4,
     dots: false,
     centerMode: true,
     arrows: true,
   autoplay: true,
     rtl: true,
   autoplaySpeed: 5500,
-    responsive: [
+   responsive: [
     {
-      breakpoint: 767,
+      breakpoint: 2200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      },
+    },
+     {
+      breakpoint: 1350,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 950,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-  });
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
   
   
   
@@ -116,7 +134,13 @@ $('.testies-carousel').slick({
     
     if(window.location.href.indexOf("&is=giftcard") > -1) {
      $(".woocommerce-form-coupon").addClass("show-stuff");
-      $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
+      if($('#billing_address_1').val() &&
+         $('#billing_postcode').val() &&
+         $('#billing_city').val() &&
+         $('#billing_phone').val() &&
+        ) {
+          $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
+      }
       $("#customer_details").addClass("hide-stuff");
       $("#order_review_heading").addClass("hide-stuff");
       $("#order_review table").addClass("hide-stuff");
@@ -188,13 +212,13 @@ $('.testies-carousel').slick({
 jQuery(document).on('gform_page_loaded', function(event, formId, stepId){
     changeSteps();  
 
-    if($('body').hasClass('page-on-boarding')) {
+    if($('body').hasClass('page-on-boarding') || $('body').hasClass('page-logged-in-user') || $('body').hasClass('page-edit-onboarding')) {
         if(stepId > 3 && stepId < 8) {
             jQuery('#gf_step_' + formId + '_3').addClass('gf_step gf_step_active');
         }
     }
 
-    if($('body').hasClass('page-gift-card-receiver')) {
+    if($('body').hasClass('page-gift-card-receiver') || $('body').hasClass('page-logged-in-giftcard')) {
         if(stepId > 5 && stepId < 10) {
             jQuery('#gf_step_' + formId + '_5').addClass('gf_step gf_step_active');
         }
@@ -218,7 +242,13 @@ jQuery(document).on('gform_page_loaded', function(event, formId, stepId){
     });
     $(".gform_wrapper ul.gfield_checkbox input[type='radio']:checked").parent().find("label").addClass("hlighted");
   
-  
+  /*
+  $(".gform_wrapper .books-question input[type='checkbox']").click(function() {
+    $(".gform_wrapper .books-question input[type='checkbox']:not(:checked)").parent().find("label").removeClass("chosen");
+    $(".gform_wrapper .books-question input[type='checkbox']:checked").parent().find("label").addClass("chosen");
+    });
+  $(".gform_wrapper .books-question input[type='checkbox']:checked").parent().find("label").addClass("chosen");
+  */
   
     $("#gform_submit_button_3").on("click", function() {
     var firstName = $("#input_3_2_3").val();
@@ -320,9 +350,41 @@ $(".forother").show();
     
   });
   
+  if($('body').hasClass('page-gift-card-receiver')){
+     var urlParams = new URLSearchParams(window.location.search);
+     var month = urlParams.get('month');
+     var delivery = urlParams.get('delivery');         
+     if( ((month == '3') || (month == '6') || (month == '12')) && ((delivery == 'post') || (delivery == 'courier'))){
+       $('body').addClass('gift-card-receiver-with-parameters');
+       $('#gform_page_14_1 .gform_next_button').attr('onclick','jQuery("#gform_target_page_number_14").val("4"); jQuery("#gform_14").trigger("submit",[true]); ');
+       $('#gform_page_14_1 .gform_next_button').attr('onkeypress','if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_14").val("4");  jQuery("#gform_14").trigger("submit",[true]); } '); 
+       $('#gform_page_14_4 .gform_previous_button').attr('onclick','jQuery("#gform_target_page_number_14").val("1");  jQuery("#gform_14").trigger("submit",[true]); ');
+       $('#gform_page_14_4 .gform_previous_button').attr('onkeypress','if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_14").val("1");  jQuery("#gform_14").trigger("submit",[true]); } ');
+       switch(month) {
+        case '3':
+          $('#choice_14_151_0').attr('checked', 'checked');
+          break;
+        case '6':
+          $('#choice_14_151_1').attr('checked', 'checked');
+          break;
+        case '12':
+          $('#choice_14_151_2').attr('checked', 'checked');
+          break;
+       }
+       switch(delivery) {
+        case 'post':
+          $('#choice_14_152_0').attr('checked', 'checked');
+          break;
+        case 'courier':
+          $('#choice_14_152_1').attr('checked', 'checked');
+          break;
+       }
+    }
+  }
+  
   function changeSteps(){
     if($('.gf_page_steps').length){
-      if($('body').hasClass('page-on-boarding')) {
+      if($('body').hasClass('page-on-boarding') || $('body').hasClass('page-logged-in-user') || $('body').hasClass('page-edit-onboarding')) {
         $('.gf_page_steps .gf_step .gf_step_number').each(function() {
           if($(this).text()>= 8){
             $(this).text($(this).text()-4);
@@ -330,16 +392,65 @@ $(".forother").show();
         });
       } 
       
-    if($('body').hasClass('page-gift-card-receiver')) {
+    if($('body').hasClass('page-gift-card-receiver') || $('body').hasClass('page-logged-in-giftcard')) {
         $('.gf_page_steps .gf_step .gf_step_number').each(function() {
           if($(this).text()>= 10){
             $(this).text($(this).text()-4);
           }
         });
-      } this
+      } 
+      
+      if($('body').hasClass('gift-card-receiver-with-parameters')) {
+        $('.gf_page_steps .gf_step .gf_step_number').each(function() {
+          if($(this).text()>= 4){
+            $(this).text($(this).text()-2);
+          }
+        });
+      } 
     }
   }
   changeSteps();
+  
+  if($('body').hasClass('home')){
+    var stickyTop = $('#sticky').offset().top;
+  var windowHeight = $(window).height();
+  var stickyHeight = $('#sticky').height();
+  $('#sticky').after('<div style="height:'+ stickyHeight + 'px"></div>');
+  $(window).scroll(function() {
+    var windowTop = $(window).scrollTop();
+    
+    if (windowTop > (stickyTop - 2500) && (windowTop + windowHeight - stickyHeight ) < stickyTop ) {
+      $('#sticky').css({
+        'position': 'fixed',
+        'width': '100%',
+        'bottom': '0',
+        'opacity': 1,
+        'pointer-events': 'auto'
+      });
+    } else {
+      if((windowTop + windowHeight - stickyHeight ) < stickyTop ){
+        $('#sticky').css({
+          'position': 'fixed',
+          'width': '100%',
+          'bottom': '0',
+          'pointer-events': 'none',
+          'opacity': 0
+        });
+      }
+      else {
+        $('#sticky').css({
+          'position': 'absolute',
+          'bottom': 'auto',
+          'opacity': 1,
+          'pointer-events': 'auto'
+        });
+      }
+     
+    }
+  });
+  }
+  
 });
-</script>
-<!-- end Simple Custom CSS and JS -->
+
+
+  
