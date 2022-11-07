@@ -133,15 +133,15 @@ $('.testies-carousel').slick({
   jQuery( document.body ).on( 'updated_checkout', function(){
     
     if(window.location.href.indexOf("&is=giftcard") > -1) {
+     $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
      $(".woocommerce-form-coupon").addClass("show-stuff");
       if($('#billing_address_1').val() &&
          $('#billing_postcode').val() &&
          $('#billing_city').val() &&
          $('#billing_phone').val()
         ) {
-          $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
-      }
       $("#customer_details").addClass("hide-stuff");
+      }
       $("#order_review_heading").addClass("hide-stuff");
       $("#order_review table").addClass("hide-stuff");
   }
