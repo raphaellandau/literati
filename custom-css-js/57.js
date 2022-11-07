@@ -137,7 +137,7 @@ $('.testies-carousel').slick({
       if($('#billing_address_1').val() &&
          $('#billing_postcode').val() &&
          $('#billing_city').val() &&
-         $('#billing_phone').val() &&
+         $('#billing_phone').val()
         ) {
           $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
       }
