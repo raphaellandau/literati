@@ -285,3 +285,17 @@ function populate_fields($content) {
     return $content;
 }
 
+add_action ('get_header', 'set_address_params');
+function set_address_params(){
+    if(!is_user_logged_in()) return true;
+    if(is_page('logged-in-giftcard')) {
+        $street_address = get_user_meta(get_current_user_id(), 'billing_address_1', 1);
+        $postcode = get_user_meta(get_current_user_id(), 'billing_postcode', 1);
+        $city = get_user_meta(get_current_user_id(), 'billing_city', 1);
+        $phone = get_user_meta(get_current_user_id(), 'billing_phone', 1);
+        if($street_address) $_GET['user_street_address'] = $street_address;
+        if($postcode) $_GET['user_postcode'] = $postcode;
+        if($city) $_GET['user_city'] = $city;
+        if($phone) $_GET['user_phone'] = $phone;
+    }
+}
