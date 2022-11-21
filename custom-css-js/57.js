@@ -1,4 +1,11 @@
 jQuery(document).ready(function( $ ){
+
+  if($('.logged-in-address .address_line_1 input').val() &&
+     $('.logged-in-address .address_city input').val() &&
+     $('.logged-in-address .address_zip input').val()
+    ) $('.logged-in-address').hide();
+
+  if($('.logged-in-phone input').val()) $('.logged-in-phone').hide();
   
 /*
   $(".hidden-in-gravity").each(function() {
@@ -133,18 +140,18 @@ $('.testies-carousel').slick({
   jQuery( document.body ).on( 'updated_checkout', function(){
     
     if(window.location.href.indexOf("&is=giftcard") > -1) {
-     $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
-     $(".woocommerce-form-coupon").addClass("show-stuff");
-      if($('#billing_address_1').val() &&
-         $('#billing_postcode').val() &&
-         $('#billing_city').val() &&
-         $('#billing_phone').val()
+        $(".woocommerce-form-coupon-toggle").addClass("hide-stuff");
+        $(".woocommerce-form-coupon").addClass("show-stuff");
+        if($('#billing_address_1').val() &&
+           $('#billing_postcode').val() &&
+           $('#billing_city').val() &&
+           $('#billing_phone').val()
         ) {
-      $("#customer_details").addClass("hide-stuff");
-      }
-      $("#order_review_heading").addClass("hide-stuff");
-      $("#order_review table").addClass("hide-stuff");
-  }
+           $("#customer_details").addClass("hide-stuff");
+        }
+        $("#order_review_heading").addClass("hide-stuff");
+        $("#order_review table").addClass("hide-stuff");
+    }
   
   $("p#ddwcsc_receiver_name_field").removeClass('validate-required');
     $("p#ddwcsc_receiver_email_field").removeClass('validate-required');
