@@ -1,13 +1,15 @@
-<!-- start Simple Custom CSS and JS -->
-<style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,600,700,900&display=swap&subset=hebrew');
 .mwb_wgm_msg_info {display: none !important;}
+.testies-carousel .slick-track {
+    display: flex;
+}
 .inner-testie {
   position: relative;
   display: flex !important;
   align-items: stretch;
   flex-wrap: wrap;
   padding: 15px !important;
+  height: inherit !important;
 }
 
 #order_review_heading, #order_review {float: right; width: 100%;}
@@ -28,12 +30,23 @@
 html body.rtl #gform_page_7_1 .gform_page_footer {margin-top: 80px !important;}
 .already input {position: absolute; bottom: 80px; right: 0; left: 0; margin: auto;}
 
-body.page-on-boarding .gf_page_steps .gf_step:nth-child(4), body.page-on-boarding .gf_page_steps .gf_step:nth-child(5), body.page-on-boarding .gf_page_steps .gf_step:nth-child(6), body.page-on-boarding .gf_page_steps .gf_step:nth-child(7) {
+body.page-on-boarding .gf_page_steps .gf_step:nth-child(4), body.page-on-boarding .gf_page_steps .gf_step:nth-child(5), body.page-on-boarding .gf_page_steps .gf_step:nth-child(6), body.page-on-boarding .gf_page_steps .gf_step:nth-child(7),
+body.page-logged-in-user .gf_page_steps .gf_step:nth-child(4), body.page-logged-in-user .gf_page_steps .gf_step:nth-child(5), body.page-logged-in-user .gf_page_steps .gf_step:nth-child(6), body.page-logged-in-user .gf_page_steps .gf_step:nth-child(7),
+body.page-edit-onboarding .gf_page_steps .gf_step:nth-child(4), body.page-edit-onboarding .gf_page_steps .gf_step:nth-child(5), body.page-edit-onboarding .gf_page_steps .gf_step:nth-child(6), body.page-edit-onboarding .gf_page_steps .gf_step:nth-child(7){
     display: none !important;
 }
 
-body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(6), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(7), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(8), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(9) {
+body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(6), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(7), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(8), body.page-gift-card-receiver .gf_page_steps .gf_step:nth-child(9),
+body.page-logged-in-giftcard .gf_page_steps .gf_step:nth-child(6), body.page-logged-in-giftcard .gf_page_steps .gf_step:nth-child(7), body.page-logged-in-giftcard .gf_page_steps .gf_step:nth-child(8), body.page-logged-in-giftcard .gf_page_steps .gf_step:nth-child(9){
     display: none !important;
+}
+
+body.gift-card-receiver-with-parameters .gf_page_steps .gf_step:nth-child(2), body.gift-card-receiver-with-parameters .gf_page_steps .gf_step:nth-child(3){
+  display:none;
+}
+body.gift-card-receiver-with-parameters #gform_page_14_1 .gform_next_button,
+body.gift-card-receiver-with-parameters #gform_page_14_4 .gform_previous_button {
+   visibility:hidden;
 }
 
 #coupon_code {min-width: 200px; height: 40px;}
@@ -71,7 +84,7 @@ button[name='update_cart'] {height: 40px;}
 .recom-location {font-weight: 400 !important; font-size: 0.8vw;}
 
 .recom-content {
-  font-size: .95vw;
+  font-size: 24px;
     line-height: 1.2;
 }
 
@@ -291,7 +304,7 @@ body.rtl .gform_wrapper #gform_page_5_9 .gfield_radio li {flex-basis: 33.333333%
 .gform_body {margin-top: 50px;}
 .gform_wrapper .top_label .gfield_label {margin-bottom: 50px;}
 html body.rtl .gform_page_footer {border: none !important; text-align: center !important; margin-top: 25px;}
-.gform_wrapper .gform_page_footer .button.gform_next_button, .gform_wrapper .gform_page_footer .button.gform_previous_button, .gform_wrapper .gform_page_footer .button.gform_button, .gform_wrapper .toend input[type="button"], .gform_wrapper .already input[type="button"] {
+.gform_wrapper .gform_page_footer .button.gform_next_button, .gform_wrapper .gform_page_footer .button.gform_previous_button, .gform_wrapper .gform_page_footer .button.gform_button, .gform_wrapper .toend input[type="button"], .gform_wrapper .already input[type="button"], .gform_wrapper .hidden-next input[type="button"], .gform_wrapper .hidden-prev input[type="button"] {
     background: #65937F;
     border: none;
     font-weight: 600;
@@ -301,10 +314,29 @@ html body.rtl .gform_page_footer {border: none !important; text-align: center !i
   font-size: 20px;
   min-height: 38px;
 }
-.gform_wrapper .gform_page_footer .button.gform_previous_button {
+.gform_wrapper .gform_page_footer .button.gform_previous_button,
+.gform_wrapper .hidden-prev input[type="button"]{
   background: transparent;
   border: 1px solid #65937F;
   color: #65937F!important;
+}
+
+.gform_wrapper ul li.gfield.hidden-next {
+    position: absolute;
+    bottom: 16px;
+    left: calc(50% - 97px);
+  	display: none;
+}
+
+.gform_wrapper ul li.gfield.hidden-prev {
+    position: absolute;
+    bottom: 16px;
+    left: calc(50% + 21px);
+    display: none;
+}
+body.gift-card-receiver-with-parameters .gform_wrapper ul li.gfield.hidden-prev,
+body.gift-card-receiver-with-parameters .gform_wrapper ul li.gfield.hidden-next {
+  	display:inline-block;
 }
 @media (min-width:640px) {
   .bookpage:not(.last) .toend,.bookpage:not(.last) .gform_page_footer {
@@ -501,5 +533,42 @@ body.rtl .gform_wrapper .gfield_radio label.hlighted {background: #65937F !impor
 .woocommerce-checkout form.woocommerce-checkout{padding:0 15px;}
 .woocommerce-checkout .page-header{padding-left: 15px;padding-right: 15px;}
   .woocommerce-checkout .woocommerce-info, .woocommerce-checkout .woocommerce-message{padding-left: 15px;padding-right: 15px;}
-}</style>
-<!-- end Simple Custom CSS and JS -->
+}
+
+.testies-carousel .slick-list {
+  padding:0!important;
+}
+[dir='rtl'] .testies-carousel .slick-next {left: 10px !important;top: calc(50% - 10px)!important; z-index: 100;}
+[dir='rtl'] .testies-carousel .slick-prev {right: 10px !important;top: calc(50% - 10px)!important; z-index: 100;}
+.testies-carousel {
+  padding: 0 45px;
+}
+.testies-carousel .slick-prev:before, .testies-carousel .slick-next:before {
+  color: #707070!important;
+}
+li.onboarding-email{display:flex !important;}
+li.onboarding-email .ginput_container{margin-left:auto;margin-right:auto;}
+li.onboarding-pass input{margin-left:16px;margin-right:16px;}
+body.rtl .gform_wrapper ul li.onboarding-email .ginput_container input{width: 444px !important;}
+body.rtl .gform_wrapper ul li .ginput_container_password {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.rtl .gform_wrapper ul li .ginput_container_password .ginput_right input {
+  margin-right: 10px
+}
+@media(max-width:767px){
+ li.onboarding-email .ginput_container{width:100% !important}
+body.rtl .gform_wrapper ul li.onboarding-pass .ginput_container_password input[type="password"]{width:100% !important;margin-right:0px;}
+  body.rtl .gform_wrapper ul li.onboarding-pass .ginput_container_password span{width:100%}
+    body.rtl .gform_wrapper ul li .ginput_container_password {display: inline-block;}
+
+}
+#gform_fields_15{display:flex; flex-wrap: wrap; justify-content: center; align-items: baseline;}
+.flex-break {flex-basis: 100%; height: 0;}
+.gform_wrapper ul li.gfield.logged-in-address{width:100% !important;}
+.gform_wrapper ul li.gfield.logged-in-phone{width:100% !important;}
+.gform_wrapper ul li.gfield.logged-in-address span{width:auto;padding: 0px 10px !important;}
+.gform_wrapper ul li.gfield.logged-in-address .ginput_container_address{text-align:center !important;}
+.gform_wrapper ul li.gfield.logged-in-phone .ginput_container_phone{text-align:center !important;}
